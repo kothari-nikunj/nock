@@ -35,26 +35,22 @@ Point it at a deck and it returns, in order:
 It leads with the *why* and the *how* (his actual frameworks and voice), not a generic product/market/tech
 checklist.
 
-### Install — Claude Code (paste two lines)
+### Install — Claude Code
 
-In Claude Code, paste:
+Easiest: paste this to Claude Code and let it do the work —
 
-```
-/plugin marketplace add kothari-nikunj/nock
-/plugin install nock@nock
-```
+> Install the skill from https://github.com/kothari-nikunj/nock — clone the repo and copy the `nock`
+> folder into my Claude skills directory (`~/.claude/skills/`).
 
-That's it — no files to move, and it auto-updates. Then attach your deck (PDF) or paste an outline and say
-**"nock my pitch"** / "review my deck." It'll ask your **stage** and **category**, then run the full review.
-
-<details><summary>Prefer to copy the files by hand?</summary>
+Or do it yourself in a terminal:
 
 ```bash
-mkdir -p ~/.claude/skills && cp -r nock ~/.claude/skills/
+git clone https://github.com/kothari-nikunj/nock
+mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
 ```
-Restart Claude Code; it loads on the next session. (Project-scoped? Drop `nock/` in your repo's
-`.claude/skills/`.)
-</details>
+
+Restart Claude Code, attach your deck (PDF) or paste an outline, and say **"nock my pitch"** / "review my
+deck." It'll ask your **stage** and **category**, then run the full review.
 
 ### Use in ChatGPT / Claude.ai / Cursor / anything else
 
@@ -81,15 +77,16 @@ meetings (Granola API), filter to the ones you drove, extract your own questions
 question-bank + principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
 Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
 
-In Claude Code, paste:
+Install it the same way — point Claude Code at this repo and ask it to copy the `build-your-nock` folder
+into `~/.claude/skills/`, or:
 
-```
-/plugin marketplace add kothari-nikunj/nock
-/plugin install build-your-nock@nock
+```bash
+git clone https://github.com/kothari-nikunj/nock
+mkdir -p ~/.claude/skills && cp -r nock/build-your-nock ~/.claude/skills/
 ```
 
 Then say **"build my nock."** It walks you through it end to end. Your raw transcripts stay local; the
-shipped lens is anonymized. (Manual: `mkdir -p ~/.claude/skills && cp -r build-your-nock ~/.claude/skills/`.)
+shipped lens is anonymized.
 
 ---
 
