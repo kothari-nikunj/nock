@@ -1,0 +1,10 @@
+{
+  "name": "nock",
+  "description": "Pressure-test your pitch deck against the real questions Nikunj Kothari (seed/Series A investor) would ask — before you take the shot.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nikunj Kothari",
+    "email": "nikunj@fpvventures.com"
+  },
+  "homepage": "https://github.com/kothari-nikunj/nock"
+}

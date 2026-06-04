@@ -1,0 +1,10 @@
+{
+  "name": "build-your-nock",
+  "description": "For investors: turn your recorded pitch meetings (Granola) into your own Nock — a deck-review lens that asks the questions you ask.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Nikunj Kothari",
+    "email": "nikunj@fpvventures.com"
+  },
+  "homepage": "https://github.com/kothari-nikunj/nock"
+}

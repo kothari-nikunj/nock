@@ -35,14 +35,26 @@ Point it at a deck and it returns, in order:
 It leads with the *why* and the *how* (his actual frameworks and voice), not a generic product/market/tech
 checklist.
 
-### Install — Claude Code (recommended)
+### Install — Claude Code (paste two lines)
+
+In Claude Code, paste:
+
+```
+/plugin marketplace add kothari-nikunj/nock
+/plugin install nock@nock
+```
+
+That's it — no files to move, and it auto-updates. Then attach your deck (PDF) or paste an outline and say
+**"nock my pitch"** / "review my deck." It'll ask your **stage** and **category**, then run the full review.
+
+<details><summary>Prefer to copy the files by hand?</summary>
 
 ```bash
-cp -r nock ~/.claude/skills/
+mkdir -p ~/.claude/skills && cp -r nock ~/.claude/skills/
 ```
-Restart Claude Code, attach your deck (PDF) or paste an outline, and say "nock my pitch" / "review my deck" /
-"what would a VC ask about this?" It'll ask your **stage** and **category**, then run the full review.
-(Project-scoped instead? Drop `nock/` in your repo's `.claude/skills/`.)
+Restart Claude Code; it loads on the next session. (Project-scoped? Drop `nock/` in your repo's
+`.claude/skills/`.)
+</details>
 
 ### Use in ChatGPT / Claude.ai / Cursor / anything else
 
@@ -69,11 +81,15 @@ meetings (Granola API), filter to the ones you drove, extract your own questions
 question-bank + principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
 Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
 
-```bash
-cp -r build-your-nock ~/.claude/skills/
+In Claude Code, paste:
+
 ```
-Then: "build my nock." It walks you through it end to end. Your raw transcripts stay local; the shipped lens
-is anonymized.
+/plugin marketplace add kothari-nikunj/nock
+/plugin install build-your-nock@nock
+```
+
+Then say **"build my nock."** It walks you through it end to end. Your raw transcripts stay local; the
+shipped lens is anonymized. (Manual: `mkdir -p ~/.claude/skills && cp -r build-your-nock ~/.claude/skills/`.)
 
 ---
 
