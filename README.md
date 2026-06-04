@@ -1,20 +1,23 @@
-# Founder Lens
+# Nock
 
-> Pressure-test your pitch the way a VC actually would — before the real meeting.
+> Nock your pitch before you take the shot.
+
+A *nock* is the notch you set an arrow into before you draw and loose. **Nock** is the same idea for a pitch:
+set it, check your aim, and find what's off — before the meeting that counts.
 
 Two Claude skills in one repo:
 
-- **`founder-lens/`** — for **founders.** Reads your pitch deck and tells you the questions
+- **`nock/`** — for **founders.** Reads your pitch deck and tells you the questions
   [Nikunj Kothari](https://writing.nikunjk.com) (seed/Series A investor) would ask, and — more importantly —
   what he'd find missing. Distilled from 53 real pitch & diligence meetings plus his essays.
-- **`build-founder-lens/`** — for **investors.** A playbook to build *your own* version of this from your
-  own recorded meetings, so it asks the questions *you* ask.
+- **`build-your-nock/`** — for **investors.** A playbook to build *your own* version from your own recorded
+  meetings, so it asks the questions *you* ask.
 
 Example quotes are anonymized to a category (e.g. "AI-infra pitch") — no real companies or founders are named.
 
 ---
 
-## For founders — `founder-lens/`
+## For founders — `nock/`
 
 ### What you get
 
@@ -35,15 +38,15 @@ checklist.
 ### Install — Claude Code (recommended)
 
 ```bash
-cp -r founder-lens ~/.claude/skills/
+cp -r nock ~/.claude/skills/
 ```
-Restart Claude Code, attach your deck (PDF) or paste an outline, and say "review my deck" /
+Restart Claude Code, attach your deck (PDF) or paste an outline, and say "nock my pitch" / "review my deck" /
 "what would a VC ask about this?" It'll ask your **stage** and **category**, then run the full review.
-(Project-scoped instead? Drop `founder-lens/` in your repo's `.claude/skills/`.)
+(Project-scoped instead? Drop `nock/` in your repo's `.claude/skills/`.)
 
 ### Use in ChatGPT / Claude.ai / Cursor / anything else
 
-Paste `founder-lens/lens/principles.md` and `founder-lens/lens/question-bank.md` into the chat, then:
+Paste `nock/lens/principles.md` and `nock/lens/question-bank.md` into the chat, then:
 
 > You are reviewing my pitch deck using the lens in the two files above (`principles.md` = how this investor
 > reads a founder; `question-bank.md` = the questions he asks and how he asks them). My stage is
@@ -54,23 +57,23 @@ Paste `founder-lens/lens/principles.md` and `founder-lens/lens/question-bank.md`
 >
 > Here is my deck: [paste / attach]
 
-> Read `founder-lens/lens/principles.md` on its own even without a deck — it's a tight summary of what he's
-> actually listening for (the Pull, earned secrets, revealed preferences, latitude + agency, why-you-win).
+> Read `nock/lens/principles.md` on its own even without a deck — it's a tight summary of what he's actually
+> listening for (the Pull, earned secrets, revealed preferences, latitude + agency, why-you-win).
 
 ---
 
-## For investors — `build-founder-lens/`
+## For investors — `build-your-nock/`
 
-Want a lens that asks *your* questions, not his? `build-founder-lens/` is the playbook: pull your recorded
-pitch meetings (Granola API), filter to the ones you drove, extract your own questions, distill them into a
-question-bank + principles in your voice, **calibrate against a few real decks**, and ship your own
-`founder-lens`. Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
+Want a Nock that asks *your* questions, not his? `build-your-nock/` is the playbook: pull your recorded pitch
+meetings (Granola API), filter to the ones you drove, extract your own questions, distill them into a
+question-bank + principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
+Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
 
 ```bash
-cp -r build-founder-lens ~/.claude/skills/
+cp -r build-your-nock ~/.claude/skills/
 ```
-Then: "build my founder lens." It walks you through it end to end. Your raw transcripts stay local; the
-shipped lens is anonymized.
+Then: "build my nock." It walks you through it end to end. Your raw transcripts stay local; the shipped lens
+is anonymized.
 
 ---
 
@@ -87,7 +90,7 @@ shipped lens is anonymized.
 
 ## Reach out
 
-If the lens helps tighten your pitch — or you'd just like to talk it through — email Nikunj directly at
+If Nock helps tighten your pitch — or you'd just like to talk it through — email Nikunj directly at
 **nikunj@fpvventures.com**. He built this partly to meet more founders. And if it's useful, pass it to one.
 
-More of his writing: [Balancing Act](https://writing.nikunjk.com).
+More of his writing: [Balancing Act](https://writing.nikunjk.com). Licensed MIT — copy it, fork it, make it yours.

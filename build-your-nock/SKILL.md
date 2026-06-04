@@ -1,20 +1,21 @@
 ---
-name: build-founder-lens
+name: build-your-nock
 description: >-
-  Build YOUR OWN "founder lens" — a reusable tool that pressure-tests any founder's pitch deck against
-  the questions you, the investor, actually ask. Turns your recorded Granola pitch meetings into a
+  Build YOUR OWN Nock — a reusable tool that pressure-tests any founder's pitch deck against the
+  questions you, the investor, actually ask. Turns your recorded Granola pitch meetings into a
   distilled question-bank + principles, then applies it to decks. Use when an investor/VC wants to
   capture how they question founders, "clone my diligence questions," build a deck-review tool from
-  their meeting notes, or productize their own taste. Triggers: "build my founder lens", "turn my
-  meetings into a deck reviewer", "capture how I question founders", "make a lens from my Granola".
+  their meeting notes, or productize their own taste. Triggers: "build my nock", "build my founder lens",
+  "turn my meetings into a deck reviewer", "capture how I question founders", "make a lens from my Granola".
 ---
 
-# Build Your Founder Lens
+# Build Your Nock
 
-A playbook to turn an investor's own recorded pitch meetings into a reusable lens that reviews any
-founder's deck the way *they* would — surfacing the questions they'd ask and the gaps they'd grill.
+A playbook to turn an investor's own recorded pitch meetings into a reusable lens (a "Nock" of your own)
+that reviews any founder's deck the way *they* would — surfacing the questions they'd ask and the gaps
+they'd push on.
 
-The output is a second skill (like `founder-lens`) personalized to the investor: a `question-bank.md`
+The output is a second skill (like `nock`) personalized to the investor: a `question-bank.md`
 (their recurring questions, by theme) + a `principles.md` (the bar beneath the questions), plus the
 logic to apply both to a deck.
 

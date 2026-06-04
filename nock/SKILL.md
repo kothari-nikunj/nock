@@ -1,18 +1,20 @@
 ---
-name: founder-lens
+name: nock
 description: >-
-  Pressure-test a startup pitch deck or pitch notes against the real questions and bar that
-  Nikunj Kothari applies to founders. Use when someone wants to prep for a VC
-  pitch, "see what a VC would ask," find the holes in their deck, or rehearse tough diligence
-  questions. Triggers: "review my deck", "what would a VC ask", "pressure-test my pitch",
-  "prep me for a pitch", "poke holes in this", "is my pitch ready", "founder lens".
+  Nock — pressure-test a startup pitch deck against the real questions and bar that Nikunj Kothari
+  applies to founders, before you take the shot. Use when someone wants to prep for a VC pitch,
+  "see what a VC would ask," find the holes in their deck, or rehearse tough diligence questions.
+  Triggers: "nock", "nock my pitch", "review my deck", "what would a VC ask", "pressure-test my pitch",
+  "prep me for a pitch", "poke holes in this", "is my pitch ready".
 ---
 
-# Founder Lens
+# Nock
 
-Pressure-tests a deck against how one seed–Series A VC (Nikunj Kothari) actually pushes on a pitch and reads a founder —
-distilled from 53 of his real pitch & diligence meetings plus his written philosophy. It tells a founder
-the questions he'd ask and, more importantly, what he'd find missing.
+> Nock your pitch before you take the shot.
+
+Pressure-tests a deck against how one seed–Series A VC (Nikunj Kothari) actually pushes on a pitch and reads
+a founder — distilled from 53 of his real pitch & diligence meetings plus his written philosophy. It tells a
+founder the questions he'd ask and, more importantly, what he'd find missing.
 
 ## The two reference files (read BOTH before analyzing)
 
