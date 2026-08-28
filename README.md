@@ -32,6 +32,12 @@ Point it at a deck and it returns, in order:
 5. **Your weakest 3 claims + the follow-ups** he'd use to test whether a secret is earned or faked.
 6. **The "dinner test"** — would this still be on his mind after the meeting? — and the one thing to fix first.
 
+If your deck has an ask slide, it also runs a **raise-mechanics read** from his essay on fundraising in a
+consensus market: is the ask sized to actually close, price/dilution sanity (no lead goes under 10%; a
+"great deal" begets questions, not interest), no competitor-round comps, current-month traction, great new
+hires showcased. And you can skip the deck entirely and just ask it raise-process questions — "how much
+should I raise," "who do I talk to at a firm," "what do I say about my timeline."
+
 It leads with the *why* and the *how* (his actual frameworks and voice), not a generic product/market/tech
 checklist.
 
@@ -54,7 +60,8 @@ deck." It'll ask your **stage** and **category**, then run the full review.
 
 ### Use in ChatGPT / Claude.ai / Cursor / anything else
 
-Paste `nock/lens/principles.md` and `nock/lens/question-bank.md` into the chat, then:
+Paste `nock/lens/principles.md` and `nock/lens/question-bank.md` into the chat (add
+`nock/lens/raise-playbook.md` if you want the raise-mechanics read too), then:
 
 > You are reviewing my pitch deck using the lens in the two files above (`principles.md` = how this investor
 > reads a founder; `question-bank.md` = the questions he asks and how he asks them). My stage is

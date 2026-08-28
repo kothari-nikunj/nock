@@ -109,7 +109,8 @@ and first-principles thinking at once.
 ## 7. The raise — and what you're optimizing for
 
 **What he's probing:** whether the ask is rational and what it actually buys — and, as a values read, *what
-you're optimizing for.*
+you're optimizing for.* (The process side of this — sizing the ask, price norms, who to talk to — lives in
+`raise-playbook.md`; read it when the raise is on the table.)
 
 **He asks:**
 - How much are you raising, and how did you arrive at the number?
