@@ -101,7 +101,10 @@ Work through the deck and output, in this order:
    actually close; no sub-10%-dilution ask to a lead, no "great deal" framing; no competitor-round comps;
    traction slide showing the *current* month; great recent hires showcased, not buried; the opportunity
    presented as obvious rather than justified; and, if the sector isn't hot, a contrarian-bet framing and a
-   default-alive path. Keep this tight — a few sharp flags, not a lecture.
+   default-alive path. Keep this tight — a few sharp flags, not a lecture. On ask sizing: flag an
+   ask-vs-plan mismatch only when the deck itself makes it obvious; never invent a "right" number from thin
+   deck math — when it's unclear, pose it as his question ("why that number — how'd you arrive at it?")
+   rather than asserting one.
 
 5. **The insight-count check.** State plainly how many of the **three unique insights** (tech / market / GTM)
    the deck actually carries. One = "not enough by today's bar." Name which one(s) and why.
