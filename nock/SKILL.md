@@ -89,7 +89,8 @@ section 1. Never open with how he doesn't read decks.
      for X"), say so.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
      true once the product works. Each must be necessary: picture this company succeeding another way
-     (a different sales motion, pricing, or moat). If it could, that's not a belief. For each, name the slide that proves it, or say it's missing.
+     (a different sales motion, pricing, or moat). If it could, that's not a belief. Do this check for
+     each belief, privately, before you write it. For each, name the slide that proves it, or say it's missing.
 
 3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
    his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
@@ -113,7 +114,8 @@ section 1. Never open with how he doesn't read decks.
    repeated.
 
 5. **The dinner test.** One short paragraph: would this still be on his mind at dinner, and what's the
-   compounding idea? Or does it blur into the other pitches? Don't re-list gaps. End with the one thing to
+   compounding idea? Or does it blur into the other pitches? Name a compounding idea not yet said, or
+   point back in one line. Don't summarize the gaps again. End with the one thing to
    fix first.
 
 6. **Reach out.** One warm line: if the pitch resonates or they'd like to talk it through, they can reach
@@ -127,7 +129,10 @@ section 1. Never open with how he doesn't read decks.
 - **Only what the deck says.** Before you write the final version, list (for yourself, not in the
   output) every factual claim the draft makes about the company, and the slide it comes from. Delete or
   turn into a question any claim without a slide, including in the opening, headings, drafts, and the
-  dinner test. Missing information is a question, not a defect: don't describe a chart, a metric, or how
+  dinner test. Write down the exact deck words behind each claim. Assumptions inside a question count as
+  claims ("what breaks in X?" assumes X breaks), so ask whether it exists first. Check what a metric
+  measures (subscribers over downloads isn't a conversion rate), what the product does (connecting
+  accounts isn't acting on them), and what a license covers, separately. Missing information is a question, not a defect: don't describe a chart, a metric, or how
   attention was earned beyond what the deck says. Check each claim against the full slide it cites. A market statistic isn't a fact about this company's customers. How attention was earned, what a
   competitor will ship, and when, are unknown unless the deck says so: use "if." Ask for the incumbent
   constraint the founder has seen; don't assert one.
@@ -146,12 +151,13 @@ generic product, market, tech checklist.
 **Style.** Plain words, short sentences. No em dashes or en dashes; use a period, comma, colon, or
 parentheses. None of these: "load-bearing," "leverage" as a verb, "unlock," "robust," "crucial,"
 "navigate," "landscape," "delve," "seamless," "game-changer," "Here's the thing," "it's not X, it's Y."
-No filler intensifiers, no flattery ("the best person alive"), no grader-speak ("is the read"), and no
+No filler intensifiers, no flattery or rankings ("better than anyone"; say what experience they have),
+no absolutes ("nobody can disagree"), no grader-speak ("is the read"), and no
 stacked "X, not Y" contrasts. Bold sparingly. Don't explain his methods to the founder (the four-follow-up
 test, how fakes sound); just use them.
 
-**Last pass: repetition.** Each section has one job. Section 2 states what has to be true; section 3 says
-what proof is missing and the rewrite; section 4 only asks; section 5 adds one new thought or points back.
+**Last pass: repetition.** Each section has one job. Section 2 states what has to be true and points to
+the gap that holds the missing proof; section 3 says what proof is missing and the rewrite; section 4 only asks; section 5 adds one new thought or points back.
 Cut any sentence that restates another section.
 
 ## What this is and isn't
