@@ -68,8 +68,8 @@ is how **he** reads a founder. This is how the market reads your raise. Sections
   [post](https://x.com/nikunj/status/2024499184087552203))
 - **Bought reach.** "Paid partnerships and boosting 'views' on X are now negative signal in all VC group
   chats." "I have no problem with people doing paid partnerships. But when you put it in a pitch and say you
-  got these many impressions as a proxy for demand I'm like 💀" Organic attention (stars, a top launch) is
-  attention. Show what it turned into. ([post](https://x.com/nikunj/status/2065889759906644146),
+  got these many impressions as a proxy for demand I'm like 💀" Stars and a top launch are attention too,
+  and a deck rarely says how they were earned. Show what they turned into. ([post](https://x.com/nikunj/status/2065889759906644146),
   [post](https://x.com/nikunj/status/2118726380800381144))
 - **Launch last.** "A launch is the last step, not the first. Find the customer who won't shut up about you,
   point the camera at them and get out of frame. If you can't find an obsessed customer yet, no refinements

@@ -83,12 +83,13 @@ section 1. Never open with how he doesn't read decks.
 2. **Your story, rebuilt.** The part a founder can't see from inside their own deck (`raise-playbook.md` §1).
    - **The end state.** Work it forward from the deck's own facts: what changes for the customer, then for
      their economics, then for their industry. Write the chain as a hypothesis, mark each step the deck
-     doesn't support, say what could break each link, and end on how the company captures the value. Then
+     doesn't support, say what could break each link, and end on how the company captures the value: who
+     pays, and for what more. Each step must be a new change, not the last one restated. Then
      write one full draft of the slide-one sentence, marked as a draft. If the vision is a label ("the OS
      for X"), say so.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
-     true once the product works. Each must be necessary: if a successful version of this company could
-     break it, it isn't a belief. For each, name the slide that proves it, or say it's missing.
+     true once the product works. Each must be necessary: picture this company succeeding another way
+     (a different sales motion, pricing, or moat). If it could, that's not a belief. For each, name the slide that proves it, or say it's missing.
 
 3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
    his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
@@ -123,8 +124,11 @@ section 1. Never open with how he doesn't read decks.
 - **Hypotheses, not verdicts.** A strength that's only latent (a credential that *might* be distribution) is
   a hypothesis: ask for the proof. When you ask "why won't the incumbent just do this?", don't supply the
   answer you'd like to hear.
-- **Only what the deck says.** Before you finish, check every factual claim against the full slide it
-  cites. A market statistic isn't a fact about this company's customers. How attention was earned, what a
+- **Only what the deck says.** Before you write the final version, list (for yourself, not in the
+  output) every factual claim the draft makes about the company, and the slide it comes from. Delete or
+  turn into a question any claim without a slide, including in the opening, headings, drafts, and the
+  dinner test. Missing information is a question, not a defect: don't describe a chart, a metric, or how
+  attention was earned beyond what the deck says. Check each claim against the full slide it cites. A market statistic isn't a fact about this company's customers. How attention was earned, what a
   competitor will ship, and when, are unknown unless the deck says so: use "if." Ask for the incumbent
   constraint the founder has seen; don't assert one.
 - **No invented numbers.** Arithmetic on the deck's own figures is fine if you show it. Flag an ask that
@@ -143,7 +147,12 @@ generic product, market, tech checklist.
 parentheses. None of these: "load-bearing," "leverage" as a verb, "unlock," "robust," "crucial,"
 "navigate," "landscape," "delve," "seamless," "game-changer," "Here's the thing," "it's not X, it's Y."
 No filler intensifiers, no flattery ("the best person alive"), no grader-speak ("is the read"), and no
-stacked "X, not Y" contrasts. Bold sparingly. Last pass: cut any sentence that restates an earlier one.
+stacked "X, not Y" contrasts. Bold sparingly. Don't explain his methods to the founder (the four-follow-up
+test, how fakes sound); just use them.
+
+**Last pass: repetition.** Each section has one job. Section 2 states what has to be true; section 3 says
+what proof is missing and the rewrite; section 4 only asks; section 5 adds one new thought or points back.
+Cut any sentence that restates another section.
 
 ## What this is and isn't
 
