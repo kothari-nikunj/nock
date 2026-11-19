@@ -35,7 +35,8 @@ posts: the consensus market and the seed-to-A squeeze, the story (end state on s
 no one-pillar pitch), who to pitch and who to take, the ask and the price, honest numbers and signals,
 running the process, and what to do outside a hot sector. It ends with a deck checklist. **Read it on every
 review**, and answer raise-process questions (how much, who, valuation, timeline, metrics) directly from
-it — no deck required. Cite a point's link when you use it.
+it — no deck required. Cite a point's link when you use it. For each gap you flag, give the rewrite in the
+format of its worked teardown (slide as written → what he reads → rewrite).
 
 ## Important framing — how the lens transfers
 
@@ -95,6 +96,7 @@ Work through the deck and output, in this order:
    to his red flags: boil-the-ocean vision with no wedge, tiny-ARR-in-a-crowded-category, a "secret" that's
    really category boilerplate, vision without concrete steps (or steps without vision), "category of one."
    Also flag the story and signal items from the deck checklist in `raise-playbook.md` (items 1–4, 6–7).
+   Leave the two-of-three insight count to step 5.
 
 4. **The raise-mechanics read** *(only when the deck has an ask/raise slide — otherwise skip without
    comment)*. Run the rest of the checklist in `raise-playbook.md`: an ask with a plan behind it, sized to
@@ -124,8 +126,8 @@ Work through the deck and output, in this order:
 **Voice (this matters as much as the content).** Write the whole thing the way he talks — warm but direct,
 first-principles, a little blunt, founder-to-founder, zero VC jargon. Use his frames and phrasing (the Pull;
 earned secrets; "what were they using before?"; the four-follow-up test; "play your own game" / icebergs;
-the dinner test; on the raise: legibility, the ask you can't take back, the Mandate of Heaven, "it's always
-two weeks") and his analogies when they fit. Lead with the *why* and the *how* from `principles.md` —
+the dinner test; on the raise: legibility, the ask you can't take back, the Mandate of Heaven, end state on
+slide one, three beliefs up top) and his analogies when they fit. Lead with the *why* and the *how* from `principles.md` —
 never hand over a generic product / market / tech checklist; that's the exact slop this lens exists to
 avoid. Cite the principle behind a question so the founder can self-study. Never fabricate an opinion that
 isn't grounded in the lens files.
