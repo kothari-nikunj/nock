@@ -6,12 +6,15 @@ deck. Sections 5–7 change how you run the raise. Links go to the source.*
 
 ## 1. The story
 
-- **End state on slide one.** Ambition is what's being rewarded. Ask: if everything works, what's true — the
-  second and third order effects? Open with that, then show the clean path from what you're building today
-  to earning it. "If you can't think about that, then that's a sign in itself."
+- **End state on slide one.** Ambition is what's being rewarded. Work it forward: if everything works, what
+  changes for your customer? Then what does that change for their economics? Then for their whole industry?
+  The last answer is your end state, and it's a consequence, not a product label ("the OS for X" is a
+  label). Open with it, then show the clean path from what you're building today to earning it. "If you can't think about that, then that's a sign in itself." Stuck? Start with what your
+  best customer could do that they can't do today.
   ([post](https://x.com/nikunj/status/2123066196052381864), [post](https://x.com/nikunj/status/2123074656701985207))
 - **Three beliefs up top.** Name the three things an investor must believe to invest, and force a yes or no.
-  Each belief needs its proof somewhere in the deck. ([post](https://x.com/nikunj/status/2073051190636806155))
+  To find them, ask what still has to be true once the product works. Each belief points to its proof in
+  the deck. ([post](https://x.com/nikunj/status/2073051190636806155))
 - **No one pillar is the pitch.** AI/timing, funding, distribution, market, product, revenue: a deck that
   rests on one of them gives your champion nothing to defend to their partners. Show how you capture
   several in a way that's hard to copy. ([post](https://x.com/nikunj/status/2062033620773306763))
@@ -59,7 +62,7 @@ in the deck; [brackets] mark what the founder must supply. Do the same in a real
 
 | Slide as written | What he reads | Rewrite |
 |---|---|---|
-| 1: "AI agents for freight brokerage back offices." | The how. The ambition ("operating system for freight") is buried on slide 10. | Open on the end state: what's true for brokers when Lattice runs their back office. Then the path: documents today → exceptions → [next step] → the operating system. |
+| 1: "AI agents for freight brokerage back offices." | The how. The ambition is on slide 10, and "operating system for freight" is a label, not a consequence. | Work it forward, e.g.: brokers stop keying paperwork → they move more freight without hiring → small brokers can win complex accounts that only big ones could serve. Open on the last step, and say how Lattice captures that value. Then the path: documents today → exceptions → [next step]. |
 | (none) | He can't name the three beliefs. | "1. Brokers pay for this in a down cycle. 2. The exception layer beats the TMS. 3. This team can sell to brokers." Each points to a slide with its proof. |
 | 5: "$1.2M ARR (as of July)," chart with no y-axis. | Usage × 12 called ARR, months stale, no scale. | "$[x] run-rate, [latest full month]." Labeled y-axis, monthly revenue, [cohort retention], [gross margin per document]. |
 | 6: "Launch video: 3.1M views." | Impressions offered as demand. | Cut the views. "40 inbound demo requests → [n] pilots → [n] paying." |
@@ -75,7 +78,8 @@ in the deck; [brackets] mark what the founder must supply. Do the same in a real
 - **Check an associate's standing first.** Look at what they've backed recently. Once a firm logs you under
   someone in its CRM, you're usually theirs.
 - **Find your champion and arm them.** Unconventional deals die a hundred times before they're wired; one
-  person steers yours through. Give them the material to argue your case inside.
+  person steers yours through. Give them a case they can forward: your three beliefs, the proof for each,
+  and the hardest partner objection with your answer.
   ([post](https://x.com/nikunj/status/2092079149028716877))
 - **Cold works if it shows work:** a five-line pointed note, a shipped side project. Never "pick your brain."
   ([post](https://x.com/nikunj/status/2119670529254981756))

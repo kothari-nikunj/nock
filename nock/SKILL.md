@@ -83,7 +83,10 @@ SaaS, fintech, bio) — it sharpens which themes are load-bearing.
 
 ## What to produce
 
-Work through the deck and output, in this order:
+Work through the deck and output, in this order. Name each gap once, in the section where it fits best;
+later sections point back to it instead of restating it. Rank gaps by how much the answer would change
+the case. When a strength is only latent (a credential that *might* be distribution, say), call it a
+hypothesis and ask for the proof — don't assert it.
 
 1. **Questions he'd ask, mapped to your material.** Go slide-by-slide / section-by-section. For each,
    pull the 2–4 most relevant questions from `question-bank.md` (use his real phrasing). Lead with the
