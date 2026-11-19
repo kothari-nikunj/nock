@@ -7,7 +7,7 @@ description: >-
   Also covers raise mechanics — the ask, pricing, who to talk to at a firm, running the process.
   Triggers: "nock", "nock my pitch", "review my deck", "what would a VC ask", "pressure-test my pitch",
   "prep me for a pitch", "poke holes in this", "is my pitch ready", "how much should I raise",
-  "how should I run my raise", "is my ask right".
+  "how should I run my raise", "is my ask right", "which investors should I take", "how should I count ARR".
 ---
 
 # Nock
@@ -37,6 +37,15 @@ traction recency, showcasing great hires, the two-weeks answer, contrarian-bet f
 the deck carries an ask/raise slide, or the founder asks about raise strategy or process** (how much to
 raise, valuation, who to approach, timeline). For a pure process question with no deck, answer directly
 from this file in his voice — no deck required.
+
+There is a fourth file, `lens/field-notes.md` — **his posts on X (Dec 2025 to Nov 2026), sorted by theme**:
+lead with the end state on slide one, three beliefs and a binary call, founder-market fit over decks,
+picking investors (champions, competing portfolios, hard-question VCs, pro rata and a real lawyer), the
+seed-to-A squeeze and default fundability, tranches and the next hire's strike price, and the numbers not
+to juice (ARR definitions, bought reach, axis-less charts, launch-first). Each point links to its post.
+**Read it on every review** — it feeds the gaps (step 3) and the raise read (step 4) — and answer from it
+directly for questions about picking investors, timing, valuation, or how to present metrics. When you use
+a point, cite its link so the founder can read it in his words.
 
 ## Important framing — how the lens transfers
 
@@ -95,6 +104,8 @@ Work through the deck and output, in this order:
 3. **Gaps & where he'd grill you.** The questions the deck leaves open. Flag anything that pattern-matches
    to his red flags: boil-the-ocean vision with no wedge, tiny-ARR-in-a-crowded-category, a "secret" that's
    really category boilerplate, vision without concrete steps (or steps without vision), "category of one."
+   Also run the deck checklist at the end of `field-notes.md`: end state on slide one, the three beliefs,
+   one-pillar pitches, how "ARR" is counted, charts with no y-axis, impressions or LOIs offered as demand.
 
 4. **The raise-mechanics read** *(only when the deck has an ask/raise slide — otherwise skip without
    comment)*. Run the checklist at the end of `raise-playbook.md`: an ask with a plan behind it, sized to
