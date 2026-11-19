@@ -1,116 +1,135 @@
-# How the Raise Itself Gets Read
+# Raising — the Playbook
 
-*From his essay on fundraising in a consensus market (August 2026). `principles.md` is how **he** reads a
-founder; this is how the **market** reads your raise — the process mechanics that shape a round before the
-diligence does. Load-bearing whenever a deck carries an ask slide, or a founder asks how to run the raise.*
+*How the market reads your raise, from his essays and posts (Dec 2025 to Nov 2026). `principles.md` is how
+**he** reads a founder; this is how the round gets read before diligence starts. Links go to the source.*
 
-## 0. The consensus market — legibility is the game
+## 1. The market you're raising in
 
-"This is the most consensus market I have seen in a while. If you're hot, you're really hot. If you're not,
-you're not. There's almost nobody left in the middle."
+- **It's a consensus market.** "If you're hot, you're really hot. If you're not, you're not." Most VCs read
+  signals off you and compare notes. So the game is **legibility**.
+- **Never easier to raise a seed, never harder to raise an A.** Seed-to-A graduation was once as high as 33%;
+  newer cohorts trend under 20%. No revenue number gets you an A anymore. The bar is whether the
+  opportunity is *obvious*: "as soon as you're justifying the size of your opportunity, you've probably
+  already lost." ([Series A squeeze](https://writing.nikunjk.com/p/the-series-a-squeeze))
+- **VCs flock.** Outside the hot categories, a good company with a few million in revenue still raises, but
+  "your post is somewhere between $50 and $100 million." It's not a slight on your business.
+- **Headlines lie.** Big rounds are padded with SPVs and tranches. Don't benchmark against them.
+  ([post](https://x.com/nikunj/status/2102534909076349291))
 
-- In a consensus market most VCs aren't doing independent work — "they're reading signals off you and
-  comparing notes." The error of omission is too high for funds to miss the hot deal. "Whether your company
-  is actually good comes later, sometimes much later."
-- So the most successful founders are the most **legible**. It started as a joke; it's basically the game.
-  Everything below is about what gets read, and how.
+## 2. The story
 
-## 1. Who you talk to at a firm
+- **End state on slide one.** Ambition is what's being rewarded. Ask: if everything works, what's true —
+  the second and third order effects? Put that first, then show the clean path to earning it. "If you can't
+  think about that, then that's a sign in itself." ([post](https://x.com/nikunj/status/2123066196052381864),
+  [post](https://x.com/nikunj/status/2123074656701985207))
+- **Three beliefs up top.** Name the three things an investor must believe to invest, and force a yes or no.
+  It saves everyone time. ([post](https://x.com/nikunj/status/2073051190636806155))
+- **No one pillar is the pitch.** AI/timing, funding, distribution, market, product, revenue are each
+  necessary, none sufficient. Show how you capture several in a way that's hard to copy — that's what lets
+  your champion win their partners. ([post](https://x.com/nikunj/status/2062033620773306763))
+- **Unfair advantages in product, tech, and GTM.** Two of three is the bar; three is a home run. A
+  competitor already exists — your insight is why you win anyway.
+- **The what, who and why. Not the how.** ([post](https://x.com/nikunj/status/2123521753381232917))
+- **Argue both sides.** Some questions only test depth. The best founders argue either side with clarity.
+  ([post](https://x.com/nikunj/status/2042723383599861817))
+- **Great hires are the Mandate of Heaven.** Put them in the pitch. Few founders do.
 
-- **Associates and principals are really great** — but look at what they've backed recently to understand
-  their leverage and standing in the firm. Newer, worked on great recent deals, understands your space?
-  Talk to them, and get a warm intro to *them* too. If not, they might be on the way out.
-- Figure out quickly whether the fund is actually interested or just giving you lip service.
-- **Once you're assigned to someone in the CRM, you're stuck with that person.** "Wars have been fought over
-  deal attribution. You think I'm joking but no."
-- Eventually you have to get to the **GPs — the capital-P partners with actual authority, not just the
-  title.** A warm intro changes everything: angels are great for it, and a founder they've already backed is
-  even better. "They'll run onto a plane to talk to you. Schedules vanish. You don't get passed to an
-  associate (usually)."
+## 3. Who you pitch
 
-## 2. The ask — you can't take the number back
+- **He underwrites founder-market fit and obsession, not decks.** "I don't look at decks. I take walks."
+  ([post](https://x.com/nikunj/status/2110677980376711250))
+- **Get to the GP** — the partner with real authority, not just the title — through a warm intro, best from
+  a founder they backed. "Schedules vanish."
+- **Check an associate's standing first.** Look at what they've backed recently. Once you're in a firm's CRM
+  under someone, you're stuck with them.
+- **Find your champion and arm them.** Unconventional deals die a hundred times before they're wired; one
+  person steers yours through. ([post](https://x.com/nikunj/status/2092079149028716877))
+- **Cold works if it shows work.** 98 of 100 cold emails are garbage, so a pointed, thoughtful one stands out.
+  Never "pick your brain." ([post](https://x.com/nikunj/status/2119670529254981756))
+- **A public thesis may not be the GP's.** Sometimes an associate wrote it.
+  ([post](https://x.com/nikunj/status/2064175088824717401))
 
-- Ask for too much and they look at you skeptically; too little and you're not ambitious enough. Too little
-  dilution, it's not worth it; too much, it's too good of a deal. "There's no science here, but come
-  prepared with a resemblance of a plan for why you're raising that much."
-- **The number you say out loud matters far more than you think, because you can't take it back.** Say $30M,
-  fail to get it, come back at $20M — "it doesn't work that way. It seeds a doubt that you weren't able to
-  fundraise, which scares investors even more, and it shows poor judgement on why you needed that money in
-  the first place."
-- His standing advice: **aim a tad lower so you can actually raise the amount, ideally in a competitive
-  scenario with multiple term sheets.** "It's still an art. A hard one."
+## 4. Who you take
 
-## 3. Price & ownership — VCs don't want a "deal"
+- **Most large funds will back your competitors.** They can't afford to miss a category. You get one company;
+  they get a portfolio. ([post](https://x.com/nikunj/status/2054753629173940522))
+- **Take the investor whose questions make you rethink the business.**
+  ([post](https://x.com/nikunj/status/2042723383599861817))
+- **Hardware needs investors who've done hardware.** "The wrong priors will destroy your company."
+  ([post](https://x.com/nikunj/status/2117292029160165889))
+- **Posting isn't board work.** "Writes bangers on X, but terrible board member."
+  ([post](https://x.com/nikunj/status/2056363681798410592))
+- **Contracts are trust.** Honor pro rata you signed. Get an independent lawyer.
+  ([post](https://x.com/nikunj/status/2109038632975876395))
 
-- The number one thing founders don't understand: **if the price is too good, it begets even more
-  questions** — like why is the price not higher. "It's weird but it's true."
-- **No established lead fund will do under 10% dilution, so don't even ask.** The floor is set because
-  someone inside that fund is showing their partners how this one returns the fund. (Exceptions exist; with
-  insane leverage, go for it.)
-- **Never compare on what your competitor got.** "It's the single best way to tank the deal. You have no
-  idea how that deal actually got done" — keep it privately as a comp, never as an argument.
+## 5. The ask and the price
 
-## 4. The story bar — obvious, or already lost
+- **You can't take the number back.** Ask $30M, come back at $20M, and you've signed that you couldn't raise
+  and didn't know why you needed it. Aim a tad lower, so you close — ideally with competing term sheets —
+  and bring a plan for why that amount.
+- **VCs don't want a deal.** Too cheap begets "why isn't it higher?"
+- **No established lead goes under 10% dilution.** Someone inside is showing how you return the fund.
+  Under 10% at a published price usually means a tranched round, and everyone knows it.
+  ([post](https://x.com/nikunj/status/2067397092981772501))
+- **Never argue from a competitor's round.** "The single best way to tank the deal." Keep it as a private
+  comp.
+- **Valuation is a marker in time.** If the term sheet is clean and the money lets you play offense, take
+  it. Run a quick process with the parties already interested.
+  ([Series A squeeze](https://writing.nikunjk.com/p/the-series-a-squeeze))
+- **Be default fundable.** Max-price rounds made the zombiecorns that now can't raise or sell.
+  ([post](https://x.com/nikunj/status/2039143855602499629))
 
-- It's easier than ever to raise a seed and much harder to raise an A: **there's no revenue number that gets
-  you a Series A anymore.** The bar is whether what you're building is *obvious* — "as soon as you're
-  justifying the size of your opportunity, you've probably already lost."
-- So share your **unfair advantages in product, tech, or GTM — ideally all three** — grounded in your
-  company, your people, what you're observing. (Same bar as the earned-secret test in `principles.md` §2:
-  two of three is the bar, three is a home run.)
-- There's probably a competitor already doing what you're doing. **Your unique insight is what gives a VC
-  confidence on why you'll win anyway.**
+## 6. Numbers and signals
 
-## 5. Great hires are the Mandate of Heaven
+- **Not all ARR is ARR.** Annualized last-month revenue, usage, and low-margin non-subscription revenue are
+  different businesses. Say what yours is. Anthropic calls it "run-rate revenue." So should you.
+  Expect questions on annual vs. monthly, 12-month cohort retention, churn and margins.
+  ([post](https://x.com/nikunj/status/1999850795152617888),
+  [post](https://x.com/nikunj/status/2024499184087552203))
+- **Bought reach is a negative signal.** Paid partnerships, boosted views, juiced launch engagement, and
+  "collab" DMs to VCs get you skewered in VC group chats. Impressions are not demand.
+  ([post](https://x.com/nikunj/status/2065889759906644146),
+  [post](https://x.com/nikunj/status/2118726380800381144))
+- **Launch last.** Find the customer who won't stop talking about you, point the camera at them, get out of
+  frame. No obsessed customer yet? Go back to work. ([Sanitized Slop](https://x.com/nikunj/status/2074984078580031803))
+- **Current month on the traction slide.** "June numbers in August smell like stale goods."
+- **Charts need a y-axis.** Vague-posted growth is on his list of what not to do.
+  ([satire](https://x.com/nikunj/status/2119162212044742938))
 
-- "People severely discount how much hiring great folks gives you the Mandate of Heaven in a fundraise."
-  Hire great people for the company anyway — but if you have great new hires, **showcase them in the
-  pitch.** "I'm totally shocked how few companies do this."
-- It also helps VCs underwrite the downside: worst case, the company gets bought for the talent.
+## 7. Running the process
 
-## 6. Small things get read
+- **Don't lie.** A claimed term sheet is a text away. All decks leak. Share nothing you don't want shared.
+- **Timeline? Two weeks. It's always two weeks.**
+- **Loud on X means raising.** Everyone can tell. ([post](https://x.com/nikunj/status/2075635169575469523))
+- **Be you.** Show what excites you and where you need help. Negging works far less than you think.
+- **Make them use the product first** — ideally with two pieces of feedback before the call.
+  ([post](https://x.com/nikunj/status/2073903310982218088))
+- **Not done until it's wired. Slow no's are worse than fast no's.**
+  ([post](https://x.com/nikunj/status/2042758851074588945))
+- **A rejection is learning, not a verdict.** ([post](https://x.com/nikunj/status/2054599845214650442))
 
-- **Your traction slide should show the current month**, even if you started fundraising last month. "June
-  numbers in August smell like stale goods."
-- When anyone asks about your timeline, **the answer is two weeks. It's always two weeks.**
+## 8. Not in a hot sector
 
-## 7. You're being read even when you're not in the room
-
-- The valley — and New York especially — is insanely small. "If you tell a fund you have a term sheet from
-  someone, it's literally a text away." VC is a co-opetition; everyone talks to everyone. All decks leak.
-- **Don't lie, and don't share anything you don't want shared.** Even if the upstanding VC keeps it close,
-  another one won't.
-
-## 8. Vibes — maybe more important than any of this
-
-- **Be you.** Showcase what you're excited by and highlight where you need help — "we thrive on helping."
-  (This is the same read as his close in `principles.md` §7: the quality of your *ask* is signal.)
-- "You can play the silly game of negging and acting like someone you're not, but trust me, it works far
-  less than you think." Hype buys eyeballs and attention; it's not the end-all.
-
-## 9. Not in a hot sector? Strap in
-
-- The market "will read you top to bottom and still get it wrong." Even the best companies struggled to
-  raise a round — look at Anthropic.
-- Share **what makes you a great contrarian bet** — everyone is balancing their portfolio, and "you never
-  know where you'll find a champion, even if you strike out with the top 100 firms."
-- **Figure out your default-alive path.** Valuation markers come and go; a brand and a big number are nice
-  for the ego. "What matters is fuel in the tank to keep your ambition high."
+- Pitch **why you're a great contrarian bet.** Portfolios need balance; a champion can turn up outside the
+  top 100.
+- **Find your default-alive path.** Use capital as a weapon, not destiny; the spigot will dry. If venture
+  isn't the fit, go cockroach. ([post](https://x.com/nikunj/status/2104566122549063756),
+  [post](https://x.com/nikunj/status/2108420759274369503))
 - "All it takes is one yes."
 
-## How to use this when reviewing a deck
+*Unlinked points are from his August 2026 [tips post](https://x.com/nikunj/status/2085382457457828153) and
+fundraising essay.*
 
-Run the raise-mechanics read alongside the story read:
+## Deck checklist
 
-1. **The ask slide:** is there a number *and* a resemblance of a plan for why that number? Is it sized to be
-   actually raisable — ideally competitively — or is it a number they'll have to walk back?
-2. **Price/ownership sanity:** any implied ask under 10% dilution to a lead, or a "great deal" framing that
-   would beget more questions instead of interest?
-3. **Comp anchoring:** does the deck (or the founder's framing) lean on what a competitor raised or priced
-   at? Flag it — it's the single best way to tank the deal.
-4. **Traction recency:** does the traction slide show the current month, or stale goods?
-5. **Team slide:** are there great recent hires — and are they showcased, or buried?
-6. **Legibility / obviousness:** is the opportunity presented as obvious, or is the deck *justifying* the
-   size of the opportunity? Justifying = probably already lost.
-7. **If the sector isn't hot:** is there a contrarian-bet framing and a default-alive path, or only a
-   hot-market story?
+1. **Slide one:** the end state and its second and third order effects, or the how?
+2. **Three beliefs:** could an investor name them?
+3. **Pillars:** does the case rest on one of AI/timing, funding, distribution, market, product, revenue?
+4. **Insight:** unfair advantage in two of product, tech, GTM? Presented as obvious, or justified?
+5. **Ask:** a number with a plan, sized to close? No sub-10% dilution to a lead, no "great deal," no
+   competitor comps.
+6. **Revenue:** labeled honestly (run-rate is fine)? Retention and margins shown?
+7. **Signals:** any impressions-as-demand, paid reach, LOIs as revenue, or charts without a y-axis?
+8. **Traction:** current month?
+9. **Team:** great recent hires showcased?
+10. **Not hot:** contrarian-bet framing and a default-alive path?

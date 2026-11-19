@@ -33,14 +33,11 @@ Point it at a deck and it returns, in order:
 5. **Your weakest 3 claims + the follow-ups** he'd use to test whether a secret is earned or faked.
 6. **The "dinner test"** — would this still be on his mind after the meeting? — and the one thing to fix first.
 
-If your deck has an ask slide, it also runs a **raise-mechanics read** from his essay on fundraising in a
-consensus market: is the ask sized to actually close, price/dilution sanity (no lead goes under 10%; a
-"great deal" begets questions, not interest), no competitor-round comps, current-month traction, great new
-hires showcased. And you can skip the deck entirely and just ask it raise-process questions — "how much
+It also runs his fundraising checklist (see below): end state on slide one, three beliefs up top, honest
+ARR, no bought reach. If your deck has an ask slide, it adds a **raise-mechanics read**: is the ask sized
+to actually close, price/dilution sanity (no lead goes under 10%; a "great deal" begets questions, not
+interest), no competitor-round comps, current-month traction, great new hires showcased. And you can skip the deck entirely and just ask it raise-process questions — "how much
 should I raise," "who do I talk to at a firm," "what do I say about my timeline."
-
-It also checks the deck against a year of his fundraising posts (see below): end state on slide one,
-three beliefs up top, how your "ARR" is counted, charts with no axes, bought reach offered as demand.
 
 It leads with the *why* and the *how* (his actual frameworks and voice), not a generic product/market/tech
 checklist.
@@ -65,8 +62,7 @@ deck." It'll ask your **stage** and **category**, then run the full review.
 ### Use in ChatGPT / Claude.ai / Cursor / anything else
 
 Paste `nock/lens/principles.md` and `nock/lens/question-bank.md` into the chat (add
-`nock/lens/raise-playbook.md` and `nock/lens/field-notes.md` if you want the raise read and his fundraising
-tips too), then:
+`nock/lens/raise-playbook.md` if you want his fundraising read too), then:
 
 > You are reviewing my pitch deck using the lens in the two files above (`principles.md` = how this investor
 > reads a founder; `question-bank.md` = the questions he asks and how he asks them). My stage is
@@ -82,29 +78,21 @@ tips too), then:
 
 ---
 
-## Fundraising tips — `nock/lens/field-notes.md`
+## Fundraising tips — `nock/lens/raise-playbook.md`
 
-A year of his posts on raising (Dec 2025 to Nov 2026), sorted by theme. Every point links to the post.
-Readable on its own, no deck needed.
+His fundraising advice from his essays and a year of posts, in one page. Readable on its own, no deck
+needed. Every point links to its source. The short version:
 
-- **The story.** Ambition is what's being rewarded right now. Put the end state on slide one, with its
-  second and third order effects, and walk the investor down a clean path to earning it. Open with three
-  things they'd have to believe, and push for a yes or no. AI, timing, funding, distribution and revenue
-  are necessary parts of the business, not the whole pitch.
-- **What he looks for.** Founder-market fit and obsession. He doesn't look at decks; he takes walks.
-  Thoughtful cold outreach still works. Show your work instead of asking to "pick your brain."
-- **Picking investors.** Find your champion inside the firm and arm them. Large funds will back your
-  competitors. Put the investors who ask the hardest questions on your cap table. Hardware needs hardware
-  investors. Get an independent lawyer. It isn't done until it's wired.
-- **The squeeze.** Seed-to-A graduation is trending under 20%. Outside the hot categories, a good company
-  may raise at a $50–100M post rather than a big markup. Run a quick process, take clean terms if the money
-  lets you play offense, and treat valuation as a marker in time. Be default fundable. If venture isn't the
-  fit, go cockroach.
-- **Tranches and your next hire.** Under 10% dilution at the published price usually means tranched, which
-  prices your next employee's options off a valuation the lead didn't pay. Good candidates will ask.
-- **Numbers not to juice.** Not all ARR is ARR — call run-rate revenue what it is. Paid partnerships,
-  boosted views and charts with no y-axis count against you in VC group chats. Launch last: find the
-  customer who won't stop talking about you first.
+- **Story:** put the end state on slide one, with its second and third order effects, and the path to
+  earning it. Name the three things an investor must believe. No single pillar (AI, timing, revenue) is
+  the pitch.
+- **Who:** get to the GP through a founder they backed. Find your champion and arm them. Most large funds
+  will back your competitors. Take the investor whose questions make you rethink the business.
+- **Ask:** you can't take the number back, so aim a tad lower and close. No lead goes under 10%. VCs don't
+  want a deal. Never argue from a competitor's round.
+- **Signals:** say what your ARR really is. Bought reach and axis-less charts count against you. Show the
+  current month. Launch last.
+- **Not hot:** pitch the contrarian bet, find your default-alive path, and remember it takes one yes.
 
 ---
 

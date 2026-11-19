@@ -30,22 +30,12 @@ founder the questions he'd ask and, more importantly, what he'd find missing.
   **the bar moved** (10x is the floor; icebergs, not the commodity playbook), **org structure as the
   opening** (why incumbents can't follow), and the **dinner test**.
 
-There is a third file, `lens/raise-playbook.md` — **how the market reads the raise itself**, from his essay
-on fundraising in a consensus market: legibility, who to talk to at a firm, the ask you can't take back,
-price/dilution norms (no lead under 10%; VCs don't want a "deal"; never comp your competitor's round),
-traction recency, showcasing great hires, the two-weeks answer, contrarian-bet framing. **Read it whenever
-the deck carries an ask/raise slide, or the founder asks about raise strategy or process** (how much to
-raise, valuation, who to approach, timeline). For a pure process question with no deck, answer directly
-from this file in his voice — no deck required.
-
-There is a fourth file, `lens/field-notes.md` — **his posts on X (Dec 2025 to Nov 2026), sorted by theme**:
-lead with the end state on slide one, three beliefs and a binary call, founder-market fit over decks,
-picking investors (champions, competing portfolios, hard-question VCs, pro rata and a real lawyer), the
-seed-to-A squeeze and default fundability, tranches and the next hire's strike price, and the numbers not
-to juice (ARR definitions, bought reach, axis-less charts, launch-first). Each point links to its post.
-**Read it on every review** — it feeds the gaps (step 3) and the raise read (step 4) — and answer from it
-directly for questions about picking investors, timing, valuation, or how to present metrics. When you use
-a point, cite its link so the founder can read it in his words.
+There is a third file, `lens/raise-playbook.md` — **how the market reads the raise**, from his essays and
+posts: the consensus market and the seed-to-A squeeze, the story (end state on slide one, three beliefs,
+no one-pillar pitch), who to pitch and who to take, the ask and the price, honest numbers and signals,
+running the process, and what to do outside a hot sector. It ends with a deck checklist. **Read it on every
+review**, and answer raise-process questions (how much, who, valuation, timeline, metrics) directly from
+it — no deck required. Cite a point's link when you use it.
 
 ## Important framing — how the lens transfers
 
@@ -104,11 +94,10 @@ Work through the deck and output, in this order:
 3. **Gaps & where he'd grill you.** The questions the deck leaves open. Flag anything that pattern-matches
    to his red flags: boil-the-ocean vision with no wedge, tiny-ARR-in-a-crowded-category, a "secret" that's
    really category boilerplate, vision without concrete steps (or steps without vision), "category of one."
-   Also run the deck checklist at the end of `field-notes.md`: end state on slide one, the three beliefs,
-   one-pillar pitches, how "ARR" is counted, charts with no y-axis, impressions or LOIs offered as demand.
+   Also flag the story and signal items from the deck checklist in `raise-playbook.md` (items 1–4, 6–7).
 
 4. **The raise-mechanics read** *(only when the deck has an ask/raise slide — otherwise skip without
-   comment)*. Run the checklist at the end of `raise-playbook.md`: an ask with a plan behind it, sized to
+   comment)*. Run the rest of the checklist in `raise-playbook.md`: an ask with a plan behind it, sized to
    actually close; no sub-10%-dilution ask to a lead, no "great deal" framing; no competitor-round comps;
    traction slide showing the *current* month; great recent hires showcased, not buried; the opportunity
    presented as obvious rather than justified; and, if the sector isn't hot, a contrarian-bet framing and a
