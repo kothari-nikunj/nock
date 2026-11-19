@@ -83,10 +83,12 @@ section 1. Never open with how he doesn't read decks.
 2. **Your story, rebuilt.** The part a founder can't see from inside their own deck (`raise-playbook.md` §1).
    - **The end state.** Work it forward from the deck's own facts: what changes for the customer, then for
      their economics, then for their industry. Write the chain as a hypothesis, mark each step the deck
-     doesn't support, and end on how the company captures the value. If the vision is a label ("the OS
+     doesn't support, say what could break each link, and end on how the company captures the value. Then
+     write one full draft of the slide-one sentence, marked as a draft. If the vision is a label ("the OS
      for X"), say so.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
-     true once the product works. For each, name the slide that proves it, or say it's missing.
+     true once the product works. Each must be necessary: if a successful version of this company could
+     break it, it isn't a belief. For each, name the slide that proves it, or say it's missing.
 
 3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
    his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
@@ -98,10 +100,11 @@ section 1. Never open with how he doesn't read decks.
    - **What he reads:** one or two lines, naming the principle behind it (e.g. "earned secrets"). Quote his
      words from the lens files where they fit. Link only when the playbook point has a link.
    - **Rewrite:** only facts in the deck; [brackets] for what the founder has to supply.
-   - **What he'd ask:** the one question he'd open with, in his phrasing from `question-bank.md`.
+   - **What he'd ask:** the one question he'd open with, in his phrasing from `question-bank.md`. Keep
+     his intent but fit the example to this customer's world (a consumer isn't "paying for six tools").
 
    Put small fixes (a stale month, a missing y-axis, a competitor comp) in one "Quick fixes" line after the
-   ranked gaps.
+   ranked gaps. Each names the evidence that should replace it.
 
 4. **The four follow-ups.** For the two softest claims, the four or so questions he'd ask *after* the
    opener, to test whether the secret is earned or faked. Real ones get more specific under pressure; fakes
@@ -120,6 +123,10 @@ section 1. Never open with how he doesn't read decks.
 - **Hypotheses, not verdicts.** A strength that's only latent (a credential that *might* be distribution) is
   a hypothesis: ask for the proof. When you ask "why won't the incumbent just do this?", don't supply the
   answer you'd like to hear.
+- **Only what the deck says.** Before you finish, check every factual claim against the full slide it
+  cites. A market statistic isn't a fact about this company's customers. How attention was earned, what a
+  competitor will ship, and when, are unknown unless the deck says so: use "if." Ask for the incumbent
+  constraint the founder has seen; don't assert one.
 - **No invented numbers.** Arithmetic on the deck's own figures is fine if you show it. Flag an ask that
   doesn't match the plan only when the deck makes it obvious; otherwise ask his question: "why that number,
   how'd you arrive at it?"
@@ -135,7 +142,8 @@ generic product, market, tech checklist.
 **Style.** Plain words, short sentences. No em dashes or en dashes; use a period, comma, colon, or
 parentheses. None of these: "load-bearing," "leverage" as a verb, "unlock," "robust," "crucial,"
 "navigate," "landscape," "delve," "seamless," "game-changer," "Here's the thing," "it's not X, it's Y."
-No filler intensifiers. Bold sparingly.
+No filler intensifiers, no flattery ("the best person alive"), no grader-speak ("is the read"), and no
+stacked "X, not Y" contrasts. Bold sparingly. Last pass: cut any sentence that restates an earlier one.
 
 ## What this is and isn't
 
