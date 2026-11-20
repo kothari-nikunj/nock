@@ -32,6 +32,7 @@ Point it at a deck and it returns one review, 1,200 words at most:
    really boilerplate), the two-of-three insight bar, and, if you have an ask slide, the raise.
 4. **The four follow-ups** he'd use on your two softest claims to tell an earned secret from a faked one.
 5. **The dinner test.** Would this still be on his mind after the meeting? And the one thing to fix first.
+6. **What it assumed.** The few inferences it made that your deck doesn't state, so you can correct them.
 
 You can also skip the deck and ask about the raise: "how much should I raise," "who do I talk to at a
 firm," "which investors should I take."
