@@ -77,14 +77,16 @@ review **only from that list**. Every statement about the company (what it does,
 built, what competitors do, dates, metrics, credentials) must match a fact on the list. Anything else is a
 question or an "if." A name alone tells you nothing about a competitor's pricing or packaging; an SDK alone
 tells you nothing about its architecture; a credential alone tells you nothing about motivation or
-agency. Compare capabilities across slides word for word before saying one matches another.
+agency. Compare capabilities across slides word for word before saying one matches another. Split a
+sentence into its separate claims and check each. Watch "when" clauses: "when the incumbent adds X" assumes
+a future the deck doesn't give, so write "if." Inference is fine when you say it's an inference.
 
 ## What to produce
 
 One review, **1,200 words at most** (not counting quoted slide text), in this order. Talk to the founder as
 "you" and about him as "he". Each point appears **once**: a later section can point back ("fix gap 1
-first") but never restates it. First line: which themes you're weighting for this category, and why. Then
-section 1. Never open with how he doesn't read decks.
+first") but never restates it. Choose the themes for the category privately. Open with one line on the
+company's biggest tension and why it matters, then section 1. Never open with how he doesn't read decks.
 
 1. **What earns the conversation.** Two to four specific strengths, by slide. Be fair. This is also where a
    buried strength gets named ("your best GTM proof is the last line on slide 9").
@@ -93,7 +95,8 @@ section 1. Never open with how he doesn't read decks.
    - **The end state.** Work it forward from the deck's own facts: what changes for the customer, then for
      their economics, then for their industry. Write the chain as a hypothesis, mark each step the deck
      doesn't support, say what could break each link, and end on how the company captures the value: who
-     pays, and for what more. Each step must be a new change, not the last one restated. Then
+     pays, and for what more. Each step must be a new change, not the last one restated. An expansion that
+     names features already on a slide isn't one: say what new buyer or use pays. Then
      write one full draft of the slide-one sentence, marked as a draft. If the vision is a label ("the OS
      for X"), say so.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
@@ -114,7 +117,9 @@ section 1. Never open with how he doesn't read decks.
    - **Rewrite:** only facts in the deck; [brackets] for what the founder has to supply. Each bracket says
      what to measure, for whom, over what period (not "[retention]" but "[share of August subscribers still
      paying in October]"). Turn a framework into the evidence it needs ("default-alive" becomes revenue,
-     costs, and cash over time).
+     costs, and cash over time). Use the latest full month or an explicit as-of date, and don't ask for
+     longer history than the company has existed. Bracket the whole unproven relationship, and let the
+     evidence come back the other way.
    - **What he'd ask:** the one question he'd open with, in his phrasing from `question-bank.md`. Keep
      his intent but fit the example to this customer's world (a consumer isn't "paying for six tools").
 
@@ -122,7 +127,8 @@ section 1. Never open with how he doesn't read decks.
    ranked gaps. Each names the evidence that should replace it.
 
 4. **The four follow-ups.** For the two softest claims, the four or so questions he'd ask *after* the
-   opener, to test whether the secret is earned or faked. Real ones get more specific under pressure; fakes
+   opener, to test whether the secret is earned or faked. Each tests something the opener and rewrite
+   didn't. Real ones get more specific under pressure; fakes
    get vaguer. A claim can also be a section 3 gap, but these questions go deeper and the diagnosis isn't
    repeated.
 
