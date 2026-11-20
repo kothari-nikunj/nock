@@ -70,6 +70,15 @@ company name or URL, ask for the deck or a description first. Never invent the p
 
 If **stage** (pre-seed, seed, A) or **category** isn't given, ask for it in one line.
 
+## First, the fact sheet (private, not in the output)
+
+Before writing anything, list the deck's facts slide by slide, in the deck's own words. Then write the
+review **only from that list**. Every statement about the company (what it does, who it sells to, how it's
+built, what competitors do, dates, metrics, credentials) must match a fact on the list. Anything else is a
+question or an "if." A name alone tells you nothing about a competitor's pricing or packaging; an SDK alone
+tells you nothing about its architecture; a credential alone tells you nothing about motivation or
+agency. Compare capabilities across slides word for word before saying one matches another.
+
 ## What to produce
 
 One review, **1,200 words at most** (not counting quoted slide text), in this order. Talk to the founder as
@@ -90,7 +99,7 @@ section 1. Never open with how he doesn't read decks.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
      true once the product works. Each must be necessary: picture this company succeeding another way
      (a different sales motion, pricing, or moat). If it could, that's not a belief. Do this check for
-     each belief, privately, before you write it. For each, name the slide that proves it, or say it's missing.
+     each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief. For each, name the slide that proves it, or say it's missing.
 
 3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
    his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
@@ -99,9 +108,13 @@ section 1. Never open with how he doesn't read decks.
    `raise-playbook.md` (items 1 and 2 belong to section 2, not here). The raise counts only when the deck
    has an ask slide. Each gap gets:
    - **Slide as written:** quote it.
-   - **What he reads:** one or two lines, naming the principle behind it (e.g. "earned secrets"). Quote his
-     words from the lens files where they fit. Link only when the playbook point has a link.
-   - **Rewrite:** only facts in the deck; [brackets] for what the founder has to supply.
+   - **What he reads:** one or two lines, naming the principle behind it (e.g. "earned secrets"). One quote
+     of his per gap at most, and only when the deck shows what triggers it; say the connection. Link only
+     when the playbook point has a link.
+   - **Rewrite:** only facts in the deck; [brackets] for what the founder has to supply. Each bracket says
+     what to measure, for whom, over what period (not "[retention]" but "[share of August subscribers still
+     paying in October]"). Turn a framework into the evidence it needs ("default-alive" becomes revenue,
+     costs, and cash over time).
    - **What he'd ask:** the one question he'd open with, in his phrasing from `question-bank.md`. Keep
      his intent but fit the example to this customer's world (a consumer isn't "paying for six tools").
 
