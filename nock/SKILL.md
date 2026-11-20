@@ -91,6 +91,12 @@ Slips that keep happening (deck says, then what not to write):
 - "70% of millennials have no advisor." Not "your users never had an advisor." Market stats aren't
   customer facts.
 - Slide numbers: count them. "Second to last" on a ten-slide deck is slide 9.
+- "2028: first 500 kW units." Not "the 500 kW order." A roadmap isn't an order.
+- "30 months runway." Not "runs to May 2029." No start date is given.
+- "$12/month, 2,100 paying." Not "2,100 people pay for advice." List price and count, not what they pay
+  for or why.
+- "Ex-Datadog tracing team." Not "Datadog taught us X." Experience is given; what it taught isn't.
+  Bracket whether it produced an edge, and allow the answer "none."
 
 ## What to produce
 
@@ -108,14 +114,16 @@ company's biggest tension and why it matters, then section 1. Never open with ho
      doesn't support, say what could break each link, and end on how the company captures the value: who
      pays, and for what more. Each step must be a new change, not the last one restated. An expansion that
      names features already on a slide isn't one: say what new buyer or use pays. Then
-     write one full draft of the slide-one sentence, marked as a draft. If the vision is a label ("the OS
+     write one full draft of the slide-one sentence, marked as a draft. Draft the consequence yourself,
+     concretely and as an "if"; bracket only the evidence for it, never the consequence itself. If the vision is a label ("the OS
      for X"), say so.
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
      true once the product works. Each must be necessary: picture this company succeeding another way
      (a different sales motion, pricing, or moat). If it could, that's not a belief. Do this check for
      each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief.
-     A growth mechanism (accounts expand, incumbents can't add a feature) isn't a belief; the outcome it
-     serves is. Test differentiation assuming competitors match the feature: why do customers still choose
+     A growth mechanism (accounts expand, incumbents can't add a feature, a new budget line, one reason
+     people pay) isn't a belief; the outcome it serves is. Test each belief against winning existing
+     spend, other pricing, and other reasons to buy. Mechanisms become questions. Test differentiation assuming competitors match the feature: why do customers still choose
      and stay? Keep incumbent limits as questions. Where price and service cost meet (advice, inference,
      support), ask for the serving cost and margin. For each, name the slide that proves it, or say it's missing.
 
@@ -149,7 +157,8 @@ company's biggest tension and why it matters, then section 1. Never open with ho
 
 5. **The dinner test.** One short paragraph: would this still be on his mind at dinner, and what's the
    compounding idea? Or does it blur into the other pitches? Name a compounding idea not yet said, or
-   point back in one line. Don't summarize the gaps again. End with the one thing to
+   point back in one line. Don't summarize the gaps again. Earn it with a specific open mechanism, not by
+   predicting he'd be fascinated. End with the one thing to
    fix first.
 
 6. **Reach out.** One warm line: if the pitch resonates or they'd like to talk it through, they can reach
