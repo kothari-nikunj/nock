@@ -81,6 +81,17 @@ agency. Compare capabilities across slides word for word before saying one match
 sentence into its separate claims and check each. Watch "when" clauses: "when the incumbent adds X" assumes
 a future the deck doesn't give, so write "if." Inference is fine when you say it's an inference.
 
+Slips that keep happening (deck says, then what not to write):
+- "Competitors: A, B, C." Not "five funded rivals." Names say nothing about funding.
+- "2,400 stars. 310 free teams. 11 paying." Not "stars become free teams become paid." Separate counts
+  aren't a funnel; ask whether they are.
+- "Our edge: best UX." Not "a rival copies that in a quarter." No timeline is given.
+- "Chart: subscribers by week." Not "the chart needs a y-axis." From an outline you can't see the chart;
+  ask.
+- "70% of millennials have no advisor." Not "your users never had an advisor." Market stats aren't
+  customer facts.
+- Slide numbers: count them. "Second to last" on a ten-slide deck is slide 9.
+
 ## What to produce
 
 One review, **1,200 words at most** (not counting quoted slide text), in this order. Talk to the founder as
@@ -102,7 +113,11 @@ company's biggest tension and why it matters, then section 1. Never open with ho
    - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
      true once the product works. Each must be necessary: picture this company succeeding another way
      (a different sales motion, pricing, or moat). If it could, that's not a belief. Do this check for
-     each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief. For each, name the slide that proves it, or say it's missing.
+     each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief.
+     A growth mechanism (accounts expand, incumbents can't add a feature) isn't a belief; the outcome it
+     serves is. Test differentiation assuming competitors match the feature: why do customers still choose
+     and stay? Keep incumbent limits as questions. Where price and service cost meet (advice, inference,
+     support), ask for the serving cost and margin. For each, name the slide that proves it, or say it's missing.
 
 3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
    his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
