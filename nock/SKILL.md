@@ -97,6 +97,10 @@ Slips that keep happening (deck says, then what not to write):
   for or why.
 - "Ex-Datadog tracing team." Not "Datadog taught us X." Experience is given; what it taught isn't.
   Bracket whether it produced an edge, and allow the answer "none."
+- "18% take rate." Not "the pharmacy pays 18%." A take rate doesn't say who pays it.
+- "500 kW units." Not "you sell by the kW." A capacity unit isn't a billing unit.
+- "Houston: 90% fill in 4 hours." Not "Houston shows what density does." One city's result isn't a cause.
+- "RIA registered in October." Not "that's agency." A registration isn't a story about the founder.
 
 ## What to produce
 
@@ -123,7 +127,8 @@ company's biggest tension and why it matters, then section 1. Never open with ho
      each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief.
      A growth mechanism (accounts expand, incumbents can't add a feature, a new budget line, one reason
      people pay) isn't a belief; the outcome it serves is. Test each belief against winning existing
-     spend, other pricing, and other reasons to buy. Mechanisms become questions. Test differentiation assuming competitors match the feature: why do customers still choose
+     spend, other pricing, and other reasons to buy. Today's price is never a belief. Mechanisms become
+     questions. Test differentiation assuming competitors match the feature: why do customers still choose
      and stay? Keep incumbent limits as questions. Where price and service cost meet (advice, inference,
      support), ask for the serving cost and margin. For each, name the slide that proves it, or say it's missing.
 
@@ -201,7 +206,8 @@ test, how fakes sound); just use them.
 
 **Last pass: repetition.** Each section has one job. Section 2 states what has to be true and points to
 the gap that holds the missing proof; section 3 says what proof is missing and the rewrite; section 4 only asks; section 5 adds one new thought or points back.
-Cut any sentence that restates another section.
+Cut any sentence that restates another section. Check that every "see gap N" points to a gap that says
+it.
 
 ## What this is and isn't
 
