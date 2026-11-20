@@ -3,49 +3,45 @@
 > Nock your pitch before you take the shot.
 
 A *nock* is the notch you set an arrow into before you draw and loose. **Nock** is the same idea for a pitch:
-set it, check your aim, and find what's off — before the meeting that counts.
+set it, check your aim, and find what's off before the meeting that counts.
 
 Two Claude skills in one repo:
 
-- **`nock/`** — for **founders.** Reads your pitch deck and tells you the questions
-  [Nikunj Kothari](https://writing.nikunjk.com) (seed/Series A investor) would ask, and — more importantly —
-  what he'd find missing. Distilled from 53 real pitch & diligence meetings plus his essays.
-- **`build-your-nock/`** — for **investors.** A playbook to build *your own* version from your own recorded
+- **`nock/`** for **founders.** Reads your pitch deck and tells you the questions
+  [Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
+  importantly, what he'd find missing. Distilled from 53 real pitch and diligence meetings, his essays, and
+  a year of his fundraising posts.
+- **`build-your-nock/`** for **investors.** A playbook to build *your own* version from your own recorded
   meetings, so it asks the questions *you* ask.
 
-Example quotes are anonymized to a category (e.g. "AI-infra pitch") — no real companies or founders are named.
+Example quotes are anonymized to a category (e.g. "AI-infra pitch"). No real companies or founders are named.
 
 ---
 
-## For founders — `nock/`
+## For founders: `nock/`
 
 ### What you get
 
-Point it at a deck and it returns, in order:
+Point it at a deck and it returns one review, 1,200 words at most:
 
-1. **The questions he'd ask**, mapped to your slides.
-2. **What your deck already answers well** — named slide by slide.
-3. **The gaps** — where he'd push, and the red-flag patterns it spots (boil-the-ocean with no wedge,
-   "category of one," a secret that's really category boilerplate, vision with no concrete next step).
-4. **An insight-count check** — how many of the three unique insights (tech / market / GTM) you carry.
-   One isn't enough anymore.
-5. **Your weakest 3 claims + the follow-ups** he'd use to test whether a secret is earned or faked.
-6. **The "dinner test"** — would this still be on his mind after the meeting? — and the one thing to fix first.
+1. **What earns the conversation.** Your real strengths, including the ones you buried.
+2. **Your story, rebuilt.** Your end state worked forward through its second and third order effects, and
+   the three things an investor has to believe, each matched to its proof or flagged as missing.
+3. **The gaps, ranked.** Three or four, each as your slide as written, what he reads, a rewrite using only
+   your facts, and the question he'd open with. Red flags (no wedge, "category of one," a secret that's
+   really boilerplate), the two-of-three insight bar, and, if you have an ask slide, the raise.
+4. **The four follow-ups** he'd use on your two softest claims to tell an earned secret from a faked one.
+5. **The dinner test.** Would this still be on his mind after the meeting? And the one thing to fix first.
+6. **What it assumed.** The few inferences it made that your deck doesn't state, so you can correct them.
 
-If your deck has an ask slide, it also runs a **raise-mechanics read** from his essay on fundraising in a
-consensus market: is the ask sized to actually close, price/dilution sanity (no lead goes under 10%; a
-"great deal" begets questions, not interest), no competitor-round comps, current-month traction, great new
-hires showcased. And you can skip the deck entirely and just ask it raise-process questions — "how much
-should I raise," "who do I talk to at a firm," "what do I say about my timeline."
+You can also skip the deck and ask about the raise: "how much should I raise," "who do I talk to at a
+firm," "which investors should I take."
 
-It leads with the *why* and the *how* (his actual frameworks and voice), not a generic product/market/tech
-checklist.
+### Install: Claude Code
 
-### Install — Claude Code
+Easiest: paste this to Claude Code and let it do the work.
 
-Easiest: paste this to Claude Code and let it do the work —
-
-> Install the skill from https://github.com/kothari-nikunj/nock — clone the repo and copy the `nock`
+> Install the skill from https://github.com/kothari-nikunj/nock. Clone the repo and copy the `nock`
 > folder into my Claude skills directory (`~/.claude/skills/`).
 
 Or do it yourself in a terminal:
@@ -55,36 +51,61 @@ git clone https://github.com/kothari-nikunj/nock
 mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
 ```
 
-Restart Claude Code, attach your deck (PDF) or paste an outline, and say **"nock my pitch"** / "review my
-deck." It'll ask your **stage** and **category**, then run the full review.
+Restart Claude Code, attach your deck (PDF) or paste an outline, and say **"nock my pitch"** or "review my
+deck." It'll ask your **stage** and **category**, then run the review.
 
-### Use in ChatGPT / Claude.ai / Cursor / anything else
+### Use in ChatGPT, Claude.ai, Cursor, anything else
 
-Paste `nock/lens/principles.md` and `nock/lens/question-bank.md` into the chat (add
-`nock/lens/raise-playbook.md` if you want the raise-mechanics read too), then:
+Paste `nock/lens/principles.md`, `nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md` into the
+chat, then:
 
-> You are reviewing my pitch deck using the lens in the two files above (`principles.md` = how this investor
-> reads a founder; `question-bank.md` = the questions he asks and how he asks them). My stage is
-> **[pre-seed/seed/A]** and category is **[e.g. AI infra]**. Give me: (1) the questions he'd ask mapped to my
-> deck, (2) what I already answer well, (3) the gaps he'd push on, (4) an insight-count check across
-> tech/market/GTM, (5) my weakest 3 claims with the follow-ups he'd use to break a faked secret, and (6) the
-> "dinner test." Write it in his voice — warm but direct, founder-to-founder, no VC jargon.
+> You are reviewing my pitch deck using the lens in the three files above (`principles.md` is how this
+> investor reads a founder; `question-bank.md` is the questions he asks and how he asks them;
+> `raise-playbook.md` is his fundraising advice). My stage is **[pre-seed/seed/A]** and category is
+> **[e.g. AI infra]**. Give me: (1) what earns the conversation, (2) my end state worked forward through its
+> second and third order effects, plus the three things an investor has to believe, (3) my gaps ranked,
+> each as slide, what he reads, rewrite, and his opening question, (4) the four follow-ups for my two
+> softest claims, and (5) the "dinner test." Write it in his voice: warm, direct, founder to founder, no VC
+> jargon, and no em dashes.
 >
 > Here is my deck: [paste / attach]
 
-> Read `nock/lens/principles.md` on its own even without a deck — it's a tight summary of what he's actually
-> listening for (the Pull, earned secrets, revealed preferences, latitude + agency, why-you-win).
+`nock/lens/principles.md` is worth reading on its own, even without a deck. It's a short summary of what
+he's listening for: the Pull, earned secrets, revealed preferences, latitude and agency, why you win.
 
 ---
 
-## For investors — `build-your-nock/`
+## Fundraising tips: `nock/lens/raise-playbook.md`
+
+His fundraising advice, mostly in his own words, from his essays and a year of posts. Readable on its own,
+no deck needed. Every point links to its source. A taste:
+
+- "Ambition is what's being rewarded right now." Think about "the second and third order effects as a
+  result of you being successful," put that end state "in the first slide," and walk the investor through
+  "how you earn the right to get there."
+- "Have a 3 things you need to believe in to invest up top and force the investor to commit in a binary
+  way."
+- AI, timing, funding, distribution, market, product, and revenue are each "a necessary component of
+  their business but NOT the entire business."
+- "Ask for too much, then they look at you skeptically unless you're Elon. Ask for too little and then
+  you're not ambitious enough." And: "VCs don't want a 'deal.'"
+- "Never compare on what your competitor got. It's the single best way to tank the deal."
+- "Paid partnerships and boosting 'views' on X are now negative signal in all VC group chats."
+- "A launch is the last step, not the first. Find the customer who won't shut up about you."
+- "Every (unconventional) deal that's officially wired dies a 100 times in venture... It usually takes one
+  champion sticking their neck out for the founder."
+- "Share what makes you a great contrarian bet... figure out the default alive path."
+
+---
+
+## For investors: `build-your-nock/`
 
 Want a Nock that asks *your* questions, not his? `build-your-nock/` is the playbook: pull your recorded pitch
 meetings (Granola API), filter to the ones you drove, extract your own questions, distill them into a
-question-bank + principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
+question bank and principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
 Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
 
-Install it the same way — point Claude Code at this repo and ask it to copy the `build-your-nock` folder
+Install it the same way. Point Claude Code at this repo and ask it to copy the `build-your-nock` folder
 into `~/.claude/skills/`, or:
 
 ```bash
@@ -99,18 +120,18 @@ shipped lens is anonymized.
 
 ## Honest caveats
 
-- **This is one investor's lens.** Strong signal, not a guarantee — every investor differs. Use it to find
+- **This is one investor's lens.** Strong signal, not a guarantee. Every investor differs. Use it to find
   the holes in your story, not to predict the exact conversation.
-- It's distilled from open-ended conversations and applied to a static deck, so **treat the gaps as the real
-  value** — they're what he'd have to drag out of you live.
-- It plays to this investor's strengths (product, market, GTM, conviction) and deliberately doesn't simulate
-  deep financial-structure diligence.
+- It's distilled from open-ended conversations and applied to a static deck, so **the gaps are the real
+  value.** They're what he'd have to drag out of you live.
+- It plays to this investor's strengths (product, market, GTM, conviction) and doesn't simulate deep
+  financial-structure diligence.
 
 ---
 
 ## Reach out
 
-If Nock helps tighten your pitch — or you'd just like to talk it through — email Nikunj directly at
+If Nock helps tighten your pitch, or you'd just like to talk it through, email Nikunj directly at
 **nikunj@fpvventures.com**. He built this partly to meet more founders. And if it's useful, pass it to one.
 
-More of his writing: [Balancing Act](https://writing.nikunjk.com). Licensed MIT — copy it, fork it, make it yours.
+More of his writing: [Balancing Act](https://writing.nikunjk.com). Licensed MIT: copy it, fork it, make it yours.
