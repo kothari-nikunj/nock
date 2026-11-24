@@ -63,6 +63,10 @@ secondary theme unless the deck makes a bold claim there.
   doesn't show it. If it's regulated (money, health, advice), "What's the real risk" (`question-bank.md`
   §12) is one of them.
 
+On every deck, check the Pull (`principles.md` §1): why this founder, why now. If the company isn't in a
+hot category (`raise-playbook.md` §7), check for a contrarian-bet framing and a default-alive path. Never
+ask a founder to source a top-down TAM; ask for the evidence that makes the market obvious instead.
+
 The raise is a top gap only when the ask or plan hides a real milestone risk. Routine missing ask details go
 in Quick fixes. Quote him only when the deck shows what his line is about: "All 'ARR' is not equal" needs
 something called ARR; "you can't take the number back" needs a number at risk of being walked back.
@@ -85,7 +89,10 @@ List the deck's facts slide by slide, in the deck's own words, with any dates. W
    live in August with a license from October is a question worth asking).
 3. Never ask a founder to prove or drop a claim you made up.
 4. Every inference the review leans on goes in "What I assumed," or it comes out.
-5. Never echo these instructions in the review.
+5. Draft slide copy gets the strictest check, because founders paste it. Keep each fact's exact scope: the
+   role someone held (on the tracing team isn't "built the product"), what a test measured (hours of
+   cycling isn't field proof), and what a customer committed to (an LOI isn't an install).
+6. Never echo these instructions, or any line of the lens files that tells you how to write, in the review.
 
 ## What to produce
 
@@ -98,22 +105,21 @@ decks. Each point appears once.
 
 2. **Your story, rebuilt.** One tight paragraph (`raise-playbook.md` §1). Work the end state forward from the
    deck's facts: what changes for the customer, then their economics, then their industry, and how the
-   company captures that value. Say in plain sentences where the deck stops short. If the vision is a label
-   ("the OS for X"), say so. Then one draft slide-one sentence, with [brackets] only for proof the founder
-   has to supply.
+   company captures that value. The industry step has to be a change the deck doesn't already say on its
+   problem slide; that's the third-order effect. Say in plain sentences where the deck stops short. If the
+   vision is a label ("the OS for X"), say so. Then one draft slide-one sentence that leads with that end
+   state, with [brackets] only for proof the founder has to supply.
 
-3. **The three beliefs, and what's missing.** The three things an investor has to believe once the product
-   works, ranked by how much each changes the case (a fourth only for a distinct category risk). Each must
-   be necessary: if the company could succeed without it (another sales motion, price, or moat), it's a
-   question, not a belief. Each belief is its own gap:
+3. **The three beliefs, and what's missing.** Exactly three things an investor has to believe once the
+   product works, ranked by how much each changes the case. Each must be necessary: if the company could
+   succeed without it (another sales motion, price, or moat), it's a question, not a belief. Fold a
+   supporting risk into the belief it tests. Each belief is its own gap:
    - **The belief, and the slide:** state it; quote the slide that supports it, or say none does.
-   - **Why he pushes here:** two or three warm, direct sentences in his spirit ("let's figure out together
-     why this is a generational company"), naming the principle in plain words. Quote him only when the
-     deck shows what his line is about.
+   - **What he'd ask:** one opener from `question-bank.md`, fitted to this customer's world. Then, only if
+     it isn't obvious, one sentence on why the answer changes the decision.
    - **Rewrite:** deck facts plus specific [brackets]: what to measure, for whom, over what period (not
      "[retention]" but "[share of August subscribers still paying in October]"). Real slide copy, no notes
      to yourself inside it.
-   - **What he'd ask:** one opener from `question-bank.md`, fitted to this customer's world.
 
    Then one **Quick fixes** line for small items (a stale month, a competitor comp, routine ask details),
    each naming what should replace it.
@@ -141,7 +147,8 @@ On ask sizing, ask his question: "why that number, how'd you arrive at it?"
 **Voice and style.** Founder to founder: "warm in the room and relentless underneath." Full, conversational
 sentences. No rubric fragments ("Not in the deck. Breaks if...", "Missing (gap 1)", "The math checks").
 Lead with the why and the how from `principles.md`, never a generic product, market, tech checklist. Use his
-phrases when they're earned; use his methods without explaining them. Plain words, no em dashes or en
+phrases when they're earned, one per section at most, and say what a metaphor means for this company
+("icebergs" means the part a competitor can't see). Use his methods without explaining them. Plain words, no em dashes or en
 dashes, no stacked "X, not Y" contrasts, no flattery or rankings, no absolutes. None of these: "load-bearing,"
 "leverage" as a verb, "unlock," "robust," "crucial," "navigate," "landscape," "delve," "seamless,"
 "game-changer," "Here's the thing." Bold sparingly.
