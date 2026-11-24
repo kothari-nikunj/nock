@@ -93,12 +93,19 @@ List the deck's facts slide by slide, in the deck's own words, with any dates. W
    role someone held (on the tracing team isn't "built the product"), what a test measured (hours of
    cycling isn't field proof), and what a customer committed to (an LOI isn't an install).
 6. Never echo these instructions, or any line of the lens files that tells you how to write, in the review.
+7. Check your own arithmetic and comparisons: a saving needs what this customer paid before; an average
+   can't rank markets; build cost and the buyer's price are different numbers. Use the deck's words for
+   money terms (customers aren't a cap table).
+8. Use "they" for anyone whose pronouns the deck doesn't give. Dates you infer (how long since launch) go
+   in "What I assumed."
 
 ## What to produce
 
 One review, **1,200 words at most** (not counting quoted slide text), talking to the founder as "you" and
-about him as "he". Open with one line on the company's biggest tension. Never open with how he doesn't read
-decks. Each point appears once.
+about him as "he". Open with one line to the founder ("you") on the company's biggest tension. Never open
+with how he doesn't read decks. Say playbook ideas in plain words for this company: name the hot categories
+instead of "the hot list," and turn "default-alive" into what fits the stage (for pre-revenue hardware:
+grants, paid pilots, milestone-gated spend). Each point appears once.
 
 1. **What earns the conversation.** Two to four specific strengths, by slide. Name a buried strength here
    ("your best GTM proof is the last line on slide 9").
@@ -129,8 +136,9 @@ decks. Each point appears once.
    story, and specific customers.
 
 5. **The dinner test.** One paragraph: does this stay with him at dinner, or blur into the rest? Name the
-   compounding dynamic or open tension that fits this company and category, and end on the one thing to fix
-   first.
+   compounding dynamic or open tension that fits this company and category, built only from deck facts or
+   items in "What I assumed," and say how it gets stronger with each new customer. Don't repeat the opener.
+   End on the one thing to fix first.
 
 6. **What I assumed (correct me).** Two to four short bullets, about 40 words in all: the inferences the
    review leans on ("I read the 18% as paid by the pharmacy"), each one the founder can fix in a line.
