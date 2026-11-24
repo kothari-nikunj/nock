@@ -5,18 +5,14 @@
 A *nock* is the notch you set an arrow into before you draw and loose. **Nock** is the same idea for a pitch:
 set it, check your aim, and find what's off before the meeting that counts.
 
-Two Claude skills in one repo:
-
-- **`nock/`** for **founders.** Reads your pitch deck and tells you the questions
-  [Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
-  importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of
-  his fundraising posts.
-- **`build-your-nock/`** for **investors.** A playbook to build *your own* version from your own recorded
-  meetings, so it asks the questions *you* ask.
+A Claude skill for **founders.** It reads your pitch deck and tells you the questions
+[Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
+importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of his
+fundraising posts.
 
 ---
 
-## For founders: `nock/`
+## Use it
 
 ### What you get
 
@@ -93,26 +89,10 @@ no deck needed. Every point links to its source. A taste:
 
 ---
 
-## For investors: `build-your-nock/`
-
-Want a Nock that asks *your* questions, not his? `build-your-nock/` is the playbook: pull your recorded pitch
-meetings (Granola API), filter to the ones you drove, extract your own questions, distill them into a
-question bank and principles in your voice, **calibrate against a few real decks**, and ship your own Nock.
-Includes the scripts (`pull.py`, `extract.py`, `distill-prompt.md`).
-
-Install it the same way. Point Claude Code at this repo and ask it to copy the `build-your-nock` folder
-into `~/.claude/skills/`, or:
-
-```bash
-git clone https://github.com/kothari-nikunj/nock
-mkdir -p ~/.claude/skills && cp -r nock/build-your-nock ~/.claude/skills/
-```
-
-Then say **"build my nock."** It walks you through it end to end. Raw transcripts go only to the model you
-distill with. Never commit or share them; only the anonymized lens ships.
+## Evals
 
 `evals/` has five fictional test decks, the rubric, and `evals/grade.sh`, which has two outside models
-(Gemini via `agy`, and Codex) grade a set of reviews blind. Use it to check any change to your own Nock.
+(Gemini via `agy`, and Codex) grade a set of reviews blind. Use it to check any change to the skill.
 
 ---
 
