@@ -92,7 +92,10 @@ List the deck's facts slide by slide, in the deck's own words, with any dates. W
 5. Draft slide copy gets the strictest check, because founders paste it. Before you write the slide-one
    sentence or any rewrite, re-read the deck line behind each fact in it and keep its exact status: an LOI
    for a pilot stays "an LOI for a pilot," not "goes into a site"; time on a team isn't "built the product";
-   hours of lab cycling isn't field proof. Apply any saving only to what's actually replaced.
+   hours of lab cycling isn't field proof. Apply any saving only to what's actually replaced. Tense is
+   the test: present tense only for what a slide says has already happened. Sign-ups aren't "people who
+   collect rent"; a proof of concept isn't "runs"; a channel in talks isn't "can now." Everything else is
+   future or "if." The same goes for praise in section 1.
 6. Never echo these instructions, or any line of the lens files that tells you how to write, in the review.
 7. The slips that come back most: a chart described in text has no visible flaws you can name ("no
    y-axis"); a market stat describes the market, not this company's customers ("70% have no advisor" isn't
@@ -127,8 +130,9 @@ grants, paid pilots, milestone-gated spend). Each point appears once.
    succeed without it (another sales motion, price, or moat), it's a question, not a belief. Fold a
    supporting risk into the belief it tests. Each belief is its own gap:
    - **The belief, and the slide:** state it; quote the slide that supports it, or say none does.
-   - **What he'd ask:** one opener from `question-bank.md`, fitted to this customer's world. Then, only if
-     it isn't obvious, one sentence on why the answer changes the decision.
+   - **The question:** one opener from `question-bank.md`, asked straight to the founder in quotes, fitted
+     to this customer's world. Then, only if it isn't obvious, one sentence on why the answer changes the
+     decision.
    - **Rewrite:** deck facts plus specific [brackets]: what to measure, for whom, over what period (not
      "[retention]" but "[share of August subscribers still paying in October]"). Real slide copy, no notes
      to yourself inside it.

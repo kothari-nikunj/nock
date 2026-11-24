@@ -56,19 +56,16 @@ deck." It'll ask your **stage** and **category**, then run the review.
 
 ### Use in ChatGPT, Claude.ai, Cursor, anything else
 
-Paste `nock/lens/principles.md`, `nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md` into the
-chat, then:
+Paste these four files into the chat: `nock/SKILL.md` (the instructions), `nock/lens/principles.md`,
+`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then:
 
-> You are reviewing my pitch deck using the lens in the three files above (`principles.md` is how this
-> investor reads a founder; `question-bank.md` is the questions he asks and how he asks them;
-> `raise-playbook.md` is his fundraising advice). My stage is **[pre-seed/seed/A]** and category is
-> **[e.g. AI infra]**. Give me: (1) what earns the conversation, (2) my end state worked forward through its
-> second and third order effects, plus the three things an investor has to believe, (3) my gaps ranked,
-> each as slide, what he reads, rewrite, and his opening question, (4) the four follow-ups for my two
-> softest claims, and (5) the "dinner test." Write it in his voice: warm, direct, founder to founder, no VC
-> jargon, and no em dashes.
+> Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is
+> **[pre-seed/seed/A]** and category is **[e.g. AI infra]**.
 >
 > Here is my deck: [paste / attach]
+
+Without `SKILL.md`, other models write reviews three times as long and much less grounded in the deck. We
+tested this; see `evals/`.
 
 `nock/lens/principles.md` is worth reading on its own, even without a deck. It's a short summary of what
 he's listening for: the Pull, earned secrets, revealed preferences, latitude and agency, why you win.
