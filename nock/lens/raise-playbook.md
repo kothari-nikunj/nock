@@ -83,8 +83,9 @@ is how **he** reads a founder. This is how the market reads your raise. Sections
 
 ## 4. Worked teardown
 
-*Edits to a fictional seed deck (AI for freight-broker back offices). Rewrites use only facts in the deck;
-[brackets] mark what the founder must supply. Do the same in a real review.*
+*Shorthand edits to a fictional seed deck (AI for freight-broker back offices). Rewrites use only facts
+in the deck; [brackets] mark what the founder must supply. In a real review, keep this bar but write full,
+warm sentences, not table fragments.*
 
 | Slide as written | What he reads | Rewrite |
 |---|---|---|
