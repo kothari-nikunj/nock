@@ -5,18 +5,48 @@
 A *nock* is the notch you set an arrow into before you draw and loose. **Nock** is the same idea for a pitch:
 set it, check your aim, and find what's off before the meeting that counts.
 
-A Claude skill for **founders.** It reads your pitch deck and tells you the questions
+A tool for **founders.** It reads your pitch deck and tells you the questions
 [Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
 importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of his
 fundraising posts.
 
+It works in any AI agent or chat: Claude Code, Codex, Antigravity, Claude.ai, ChatGPT, Gemini. It works
+best with Claude (Opus or Sonnet), which wrote the strongest reviews in our tests.
+
+## Quick start
+
+### In a coding agent (Claude Code, Codex, Antigravity)
+
+No install needed. Paste this, fill in the brackets, and attach your deck:
+
+```text
+Clone https://github.com/kothari-nikunj/nock, then follow the repo's nock/SKILL.md, with the three files in nock/lens/, to review my pitch deck. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+```
+
+Using it often? Install it as a Claude Code skill, then just say **"nock my pitch"**:
+
+```bash
+git clone https://github.com/kothari-nikunj/nock
+mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
+```
+
+### In a chat app (Claude.ai, ChatGPT, Gemini)
+
+Attach these four files from the repo: `nock/SKILL.md`, `nock/lens/principles.md`,
+`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then paste:
+
+```text
+Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+```
+
+Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
+the deck. You can rerun the test with `evals/grade.sh`.
+
 ---
 
-## Use it
+## What you get
 
-### What you get
-
-Point it at a deck and it returns one review, 1,200 words at most:
+One review, 1,200 words at most:
 
 1. **What earns the conversation.** Your real strengths, including the ones you buried.
 2. **Your story, rebuilt.** Your end state worked forward through its second and third order effects, and
@@ -30,36 +60,6 @@ Point it at a deck and it returns one review, 1,200 words at most:
 
 You can also skip the deck and ask about the raise: "how much should I raise," "who do I talk to at a
 firm," "which investors should I take."
-
-### Install: Claude Code
-
-Easiest: paste this to Claude Code and let it do the work.
-
-> Install the skill from https://github.com/kothari-nikunj/nock. Clone the repo and copy the `nock`
-> folder into my Claude skills directory (`~/.claude/skills/`).
-
-Or do it yourself in a terminal:
-
-```bash
-git clone https://github.com/kothari-nikunj/nock
-mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
-```
-
-Restart Claude Code, attach your deck (PDF) or paste an outline, and say **"nock my pitch"** or "review my
-deck." It'll ask your **stage** and **category**, then run the review.
-
-### Use in ChatGPT, Claude.ai, Cursor, anything else
-
-Paste these four files into the chat: `nock/SKILL.md` (the instructions), `nock/lens/principles.md`,
-`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then:
-
-> Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is
-> **[pre-seed/seed/A]** and category is **[e.g. AI infra]**.
->
-> Here is my deck: [paste / attach]
-
-Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
-the deck. You can rerun the test with `evals/grade.sh`.
 
 `nock/lens/principles.md` is worth reading on its own, even without a deck. It's a short summary of what
 he's listening for: the Pull, earned secrets, revealed preferences, latitude and agency, why you win.
