@@ -39,16 +39,16 @@ mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
 
 ## What you get
 
-One review, 1,200 words at most:
+One review, 1,200 words at most, written in his voice:
 
-1. **What earns the conversation.** Your real strengths, including the ones you buried.
-2. **Your story, rebuilt.** Your end state worked forward through its second and third order effects, and
-   a draft of your slide-one sentence that leads with it.
-3. **The three beliefs, and what's missing.** The three things an investor has to believe once your product
-   works. For each: the slide that proves it (or that none does), the question he'd open with, and a
-   rewrite using only your facts.
-4. **The four follow-ups** he'd use on your two softest claims to tell an earned secret from a faked one.
-5. **The dinner test.** Would this still be on his mind after the meeting? And the one thing to fix first.
+1. **What works.** Your real strengths, including the ones you buried.
+2. **The story.** Your end state worked forward through its second and third order effects, and a draft
+   of your slide-one sentence that leads with it.
+3. **Three things he'd need to believe.** For each: the slide that proves it (or that none does), the
+   question he'd open with, and a rewrite using only your facts.
+4. **Where he'd push.** Four follow-ups on your two softest claims, to tell an earned secret from a faked
+   one.
+5. **Dinner.** Would this still be on his mind after the meeting? And the one thing to fix first.
 6. **What it assumed.** The few inferences it made that your deck doesn't state, so you can correct them.
 
 You can also skip the deck and ask about the raise: "how much should I raise," "who do I talk to at a
