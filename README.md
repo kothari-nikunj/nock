@@ -20,7 +20,7 @@ best with Claude (Opus or Sonnet), which wrote the strongest reviews in our test
 No install needed. Paste this, fill in the brackets, and attach your deck:
 
 ```text
-Clone https://github.com/kothari-nikunj/nock and follow nock/SKILL.md, with the three files in nock/lens/, to review my pitch deck. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+Clone https://github.com/kothari-nikunj/nock, then follow the repo's nock/SKILL.md, with the three files in nock/lens/, to review my pitch deck. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
 ```
 
 Using it often? Install it as a Claude Code skill, then just say **"nock my pitch"**:
