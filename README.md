@@ -5,7 +5,7 @@
 A *nock* is the notch you set an arrow into before you draw and loose. **Nock** is the same idea for a pitch:
 set it, check your aim, and find what's off before the meeting that counts.
 
-A skill for **founders.** It reads your pitch deck and tells you the questions
+A tool for **founders.** It reads your pitch deck and tells you the questions
 [Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
 importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of his
 fundraising posts.
@@ -17,16 +17,13 @@ best with Claude (Opus or Sonnet), which wrote the strongest reviews in our test
 
 ### In a coding agent (Claude Code, Codex, Antigravity)
 
-Paste this to your agent:
+No install needed. Paste this, fill in the brackets, and attach your deck:
 
-> Install the Nock skill from https://github.com/kothari-nikunj/nock. Clone the repo and copy the `nock`
-> folder into this tool's skills directory. If this tool doesn't support skills, keep the clone and follow
-> `nock/SKILL.md` whenever I ask you to review my deck.
+```text
+Clone https://github.com/kothari-nikunj/nock and follow nock/SKILL.md, with the three files in nock/lens/, to review my pitch deck. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+```
 
-Then attach your deck (PDF) or paste an outline and say **"nock my pitch."** It'll ask your **stage** and
-**category**, then run the review.
-
-For Claude Code, you can also install it yourself:
+Using it often? Install it as a Claude Code skill, then just say **"nock my pitch"**:
 
 ```bash
 git clone https://github.com/kothari-nikunj/nock
@@ -35,13 +32,12 @@ mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
 
 ### In a chat app (Claude.ai, ChatGPT, Gemini)
 
-Paste these four files into the chat: `nock/SKILL.md` (the instructions), `nock/lens/principles.md`,
-`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then:
+Attach these four files from the repo: `nock/SKILL.md`, `nock/lens/principles.md`,
+`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then paste:
 
-> Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is
-> **[pre-seed/seed/A]** and category is **[e.g. AI infra]**.
->
-> Here is my deck: [paste / attach]
+```text
+Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+```
 
 Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
 the deck. You can rerun the test with `evals/grade.sh`.
