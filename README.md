@@ -10,37 +10,30 @@ A tool for **founders.** It reads your pitch deck and tells you the questions
 importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of his
 fundraising posts.
 
-It works in any AI agent or chat: Claude Code, Codex, Antigravity, Claude.ai, ChatGPT, Gemini. It works
-best with Claude (Opus or Sonnet), which wrote the strongest reviews in our tests.
-
 ## Quick start
 
-### In a coding agent (Claude Code, Codex, Antigravity)
-
-No install needed. Paste this, fill in the brackets, and attach your deck:
+Paste this into Claude, ChatGPT, Gemini, Claude Code, Codex, or Antigravity. Fill in the brackets and
+attach your deck.
 
 ```text
-Clone https://github.com/kothari-nikunj/nock, then follow the repo's nock/SKILL.md, with the three files in nock/lens/, to review my pitch deck. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
+Read these four files, then follow SKILL.md exactly to review my pitch deck.
+https://raw.githubusercontent.com/kothari-nikunj/nock/main/nock/SKILL.md
+https://raw.githubusercontent.com/kothari-nikunj/nock/main/nock/lens/principles.md
+https://raw.githubusercontent.com/kothari-nikunj/nock/main/nock/lens/question-bank.md
+https://raw.githubusercontent.com/kothari-nikunj/nock/main/nock/lens/raise-playbook.md
+My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
 ```
 
-Using it often? Install it as a Claude Code skill, then just say **"nock my pitch"**:
+That's it. Nothing to download or install. It works best with Claude.
+
+If your chat can't open links, download those four files and attach them instead.
+
+Using it often in Claude Code? Install it as a skill, then just say **"nock my pitch"**:
 
 ```bash
 git clone https://github.com/kothari-nikunj/nock
 mkdir -p ~/.claude/skills && cp -r nock/nock ~/.claude/skills/
 ```
-
-### In a chat app (Claude.ai, ChatGPT, Gemini)
-
-Attach these four files from the repo: `nock/SKILL.md`, `nock/lens/principles.md`,
-`nock/lens/question-bank.md`, and `nock/lens/raise-playbook.md`. Then paste:
-
-```text
-Follow SKILL.md exactly to review my pitch deck, using the three lens files. My stage is [pre-seed/seed/A] and my category is [e.g. AI infra]. My deck is attached.
-```
-
-Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
-the deck. You can rerun the test with `evals/grade.sh`.
 
 ---
 
