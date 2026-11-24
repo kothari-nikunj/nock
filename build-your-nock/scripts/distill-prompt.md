@@ -23,7 +23,7 @@ Produce TWO files.
   **anonymized to the pitch's category** with a coarse date (e.g. "(AI-infra pitch, 2026-05)"), never the
   real company or exact day.
 - A final **"HOW I ASK: the texture"** section: the *how*, not the topics. My openers, my follow-up
-  pattern, the analogies I reach for, how I push, how I close. This is the soul, so make it sound like me.
+  pattern, the analogies I reach for, how I push, how I close. Make it sound like me.
 
 ## `lens/principles.md`: the bar beneath the questions
 - Written in MY voice, pulling directly from my essays (quote my actual lines). Organize around MY mental

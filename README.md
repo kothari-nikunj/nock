@@ -9,12 +9,10 @@ Two Claude skills in one repo:
 
 - **`nock/`** for **founders.** Reads your pitch deck and tells you the questions
   [Nikunj Kothari](https://writing.nikunjk.com) (seed and Series A investor) would ask and, more
-  importantly, what he'd find missing. Distilled from 53 real pitch and diligence meetings, his essays, and
-  a year of his fundraising posts.
+  importantly, what he'd find missing. Built from how he questions founders, his essays, and a year of
+  his fundraising posts.
 - **`build-your-nock/`** for **investors.** A playbook to build *your own* version from your own recorded
   meetings, so it asks the questions *you* ask.
-
-Example quotes are anonymized to a category (e.g. "AI-infra pitch"). No real companies or founders are named.
 
 ---
 
@@ -65,7 +63,7 @@ Paste these four files into the chat: `nock/SKILL.md` (the instructions), `nock/
 > Here is my deck: [paste / attach]
 
 Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
-the deck (see `evals/`).
+the deck. You can rerun the test with `evals/grade.sh`.
 
 `nock/lens/principles.md` is worth reading on its own, even without a deck. It's a short summary of what
 he's listening for: the Pull, earned secrets, revealed preferences, latitude and agency, why you win.
@@ -110,8 +108,8 @@ git clone https://github.com/kothari-nikunj/nock
 mkdir -p ~/.claude/skills && cp -r nock/build-your-nock ~/.claude/skills/
 ```
 
-Then say **"build my nock."** It walks you through it end to end. Your raw transcripts stay local; the
-shipped lens is anonymized.
+Then say **"build my nock."** It walks you through it end to end. Raw transcripts go only to the model you
+distill with. Never commit or share them; only the anonymized lens ships.
 
 `evals/` has five fictional test decks, the rubric, and `evals/grade.sh`, which has two outside models
 (Gemini via `agy`, and Codex) grade a set of reviews blind. Use it to check any change to your own Nock.
@@ -122,7 +120,7 @@ shipped lens is anonymized.
 
 - **This is one investor's lens.** Strong signal, not a guarantee. Every investor differs. Use it to find
   the holes in your story, not to predict the exact conversation.
-- It's distilled from open-ended conversations and applied to a static deck, so **the gaps are the real
+- He'd rather have a conversation than read a deck, so applied to a static deck, **the gaps are the real
   value.** They're what he'd have to drag out of you live.
 - It plays to this investor's strengths (product, market, GTM, conviction) and doesn't simulate deep
   financial-structure diligence.

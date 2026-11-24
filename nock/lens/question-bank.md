@@ -1,9 +1,8 @@
 # The Questions Nikunj Asks
 
-Drawn from 53 real pitch & diligence meetings: his own questions, anonymized to the pitch's category (no
-real companies named). Ordered roughly by how often they come up.
+The questions he asks founders, in his own words. Roughly in order of priority.
 
-> **Read `principles.md` and the "HOW HE ASKS" section first. That's the soul.** This list is the *coverage
+> **Read `principles.md` and the "HOW HE ASKS" section first.** This list is the *coverage
 > map*: the topics he tends to circle. The texture of how he gets there (the warmth, the "I'd rather have a
 > conversation," the four-follow-up dig, the analogies) lives in those two places. Don't hand a founder the
 > topic checklist and call it his lens; lead with the *why* and the *how*.
@@ -19,11 +18,11 @@ this. At seed he's underwriting the human, not the metrics.
 - Why are you doing this? Where does the obsession come from? Why *you*?
 - Is this what you want to do for the next ten years?
 - What one to three secrets have you uncovered that nobody else has?
-- Why are you so convicted when there are so many others in the space?
+- Why do you have so much conviction when there are so many others in the space?
 
 **In his words:**
-- "What really drives you, if you wrote your autobiography 20 years from now, what's the thing that drives you?" *(human-genetics pitch)*
-- "Nobody wakes up and does this, so why? You'd founded other things; how did you end up here?" *(fitness-data pitch)*
+- "What really drives you, if you wrote your autobiography 20 years from now, what's the thing that drives you?"
+- "Nobody wakes up and does this, so why? How did you end up here?"
 
 ---
 
@@ -38,8 +37,8 @@ boil-the-ocean: he wants the one box you win before the ten you dream about.
 - Is this a product, or a feature? How do you carve a space that's only yours?
 
 **In his words:**
-- "The long term makes sense, but I'm pushing you. In the short term, what's the wedge? What are they buying?" *(B2B SaaS pitch)*
-- "Do we believe this is the right entry point, even setting the beachhead aside?" *(physical-ops-AI pitch)*
+- "The long term makes sense, but I'm pushing you. In the short term, what's the wedge? What are they buying?"
+- "Do we believe this is the right entry point, even setting the beachhead aside?"
 
 ---
 
@@ -54,8 +53,8 @@ quo, not the TAM slide.
 - Bottoms-up or top-down? How do you get the first 100?
 
 **In his words:**
-- "What were they using before? Assembling it themselves, or paying for six tools?" *(data-analytics call)*
-- "Who's the core editor versus the viewer? The creator edits; everyone else just views." *(dev-tools pitch)*
+- "What were they using before? Assembling it themselves, or paying for six tools?"
+- "Who's the core editor versus the viewer? The creator edits; everyone else just views."
 
 ---
 
@@ -70,8 +69,8 @@ quo, not the TAM slide.
 - What's the 100x-better context that doesn't meet the eye?
 
 **In his words:**
-- "I understand the technical differentiation, but I want to dig in more." *(AI-inference pitch)*
-- "How are you getting a 100x better context, historically, or daily?" *(infra pitch)*
+- "I understand the technical differentiation, but I want to dig in more."
+- "How are you getting a 100x better context, historically, or daily?"
 
 ---
 
@@ -86,8 +85,8 @@ survives the underlying model getting commoditized.
 - What makes one or two winners in this space?
 
 **In his words:**
-- "In a commodity play you need a unique insight, two of three: tech, market, or GTM. That's the only way this stands the test of time, even underfunded." *(voice-AI pitch)*
-- "Why wouldn't the large incumbents just build this? Do they lack the expertise, or can't they solve supply and demand?" *(compute-markets pitch)*
+- "In a commodity play you need a unique insight, two of three: tech, market, or GTM. That's the only way this stands the test of time, even underfunded."
+- "Why wouldn't the large incumbents just build this? Do they lack the expertise, or can't they solve supply and demand?"
 
 ---
 
@@ -101,8 +100,8 @@ and first-principles thinking at once.
 - If your dream scenario happens six months from now, what does it look like?
 
 **In his words:**
-- "Fast-forward 18 months, even five years, does this become a sixth-sense layer? Is it the first thing a VP builds up?" *(post-sales-SaaS pitch)*
-- "What does it look like today, and a few years from now, and what are we actually trading here?" *(compute-markets pitch)*
+- "Fast-forward 18 months, even five years, what does this become? Is it the first thing a new team sets up?"
+- "What does it look like today, and a few years from now, and what are we actually trading here?"
 
 ---
 
@@ -118,8 +117,8 @@ norms, who to talk to. Read it when the raise is on the table.)
 - What are you optimizing for: conviction, valuation, partner? Do you prefer to lead?
 
 **In his words:**
-- "More on the fundraise. What are you optimizing for? What was the last post?" *(post-sales-SaaS pitch)*
-- "You want to raise 20 today, is it a now thing? And why 20? How'd you arrive at it?" *(infra pitch)*
+- "More on the fundraise. What are you optimizing for? What was the last post?"
+- "Is this raise a now thing? And why that number? How'd you arrive at it?"
 
 ---
 
@@ -134,8 +133,8 @@ and where the money comes from when usage ramps.
 - **What's the last customer who said no, and why?**
 
 **In his words:**
-- "What's the last customer that said no, and what was their concern? What's your payback period?" *(fitness-data pitch)*
-- "As usage ramps, cost rises. At some point someone squints and asks the ROI. How have those conversations gone?" *(data-analytics call)*
+- "What's the last customer that said no, and what was their concern? What's your payback period?"
+- "As usage ramps, cost rises. At some point someone squints and asks the ROI. How have those conversations gone?"
 
 ---
 
@@ -150,8 +149,8 @@ an existing line. Most budgets are zero-sum.
 - How do you think about pricing pressure as the space matures?
 
 **In his words:**
-- "Does this displace the existing tool, or is it net-new? Where does the budget come from in 24 to 36 months? Most budgets are zero-sum." *(dev-tools pitch)*
-- "Is it platform plus users, or per-task on outcomes?" *(voice-AI pitch)*
+- "Does this displace the existing tool, or is it net-new? Where does the budget come from in 24 to 36 months? Most budgets are zero-sum."
+- "Is it platform plus users, or per-task on outcomes?"
 
 ---
 
@@ -166,8 +165,8 @@ applies to data, marketplace, and two-sided businesses.
 - How do you bootstrap the flywheel on both sides?
 
 **In his words:**
-- "Did you buy the data, or fine-tune it? You were inside a call center for live conversations?" *(voice-AI pitch)*
-- "Besides money, is there a data advantage, something in the dataset that's interesting to you, not just the operator?" *(fitness-data pitch)*
+- "Did you buy the data, or earn it in the field? Where did it actually come from?"
+- "Besides money, is there a data advantage, something in the dataset that's interesting to you, not just the operator?"
 
 ---
 
@@ -181,8 +180,8 @@ the shift out of founder-led sales.
 - What's working, and not working, with founder-led sales today?
 
 **In his words:**
-- "What do you look for in your first sales hire? When do you buy a CRO?" *(B2B pitch)*
-- "Are you ready to hire a salesperson? If not, what's working and not in founder-led sales?" *(B2B pitch)*
+- "What do you look for in your first sales hire? When do you buy a CRO?"
+- "Are you ready to hire a salesperson? If not, what's working and not in founder-led sales?"
 
 ---
 
@@ -197,8 +196,8 @@ whether the check even matters) to pressure-test the deal and his own thesis.
 - What's the single biggest risk you'd want me to underwrite? What did I not ask that I should?
 
 **In his words:**
-- "Is the hard part the tech, or the acceptability, the liability, the big-brother problem?" *(physical-ops-AI pitch)*
-- "Anything I should have asked that I didn't?" *(data-analytics call)*
+- "Is the hard part the tech, or the acceptability, the liability, the big-brother problem?"
+- "Anything I should have asked that I didn't?"
 
 ---
 
@@ -224,7 +223,7 @@ triangulates demand sideways. Never "is there demand," always **"what were they 
 - **He fast-forwards time** to test latitude: "18 months from now, five years from now, what *is* this?"
 - **He says the bar out loud:** "you need a unique insight, two of three: tech, market, or GTM."
 - **He drills the mechanism in proportion to how much the bet rests on it:** deep when the product plugs
-  into infra / intercepts data ("which gateway? are you intercepting the calls?") or when the science *is*
+  into infra / intercepts data ("where exactly do you sit in the data path?") or when the science *is*
   the bet ("turn the editor off: secondary effects?"); lighter for an analytics layer.
 - **He frames budget as zero-sum:** "where does the spend come from in 24 to 36 months, does this displace
   something, or is it net-new?"

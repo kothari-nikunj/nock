@@ -35,7 +35,7 @@ def call(path, params=None, tries=6):
         except urllib.error.HTTPError as e:
             if e.code == 429:
                 wait = min(60, 2 ** attempt)
-                print(f"  429 — backing off {wait}s", flush=True); time.sleep(wait); continue
+                print(f"  429, backing off {wait}s", flush=True); time.sleep(wait); continue
             if e.code >= 500:
                 time.sleep(2 ** attempt); continue
             raise
@@ -79,4 +79,4 @@ for s in summaries:
     if done % 20 == 0: print(f"  {done}/{len(summaries)}", flush=True)
 
 json.dump(index, open(os.path.join(OUT, "index.json"), "w"), indent=2)
-print(f"DONE — {done} notes in {NOTES_DIR}", flush=True)
+print(f"DONE: {done} notes in {NOTES_DIR}", flush=True)

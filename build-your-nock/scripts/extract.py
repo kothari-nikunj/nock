@@ -5,9 +5,9 @@ Run pull.py first. Then:
     YOUR_DOMAIN=yourfirm.com python3 extract.py
 
 Writes ./lens-data/my_questions.json ([{title, date, questions:[...]}]) and prints a drop log
-(what was excluded and why — never filter silently).
+(what was excluded and why; never filter silently).
 
-Tune the CONFIG block for your firm. The defaults encode the filtering logic that worked in testing:
+Tune the CONFIG block for your firm. The defaults encode this filtering logic:
   - keep pitches (folder OR company/person-name title OR an external attendee)
   - drop internal/admin, personal, and PARTNER-LED / co-attended meetings (they pollute the lens)
   - extract only your side of the transcript (speaker.source == "microphone"), questions only
@@ -17,12 +17,12 @@ import json, os, re, glob
 # ---------------- CONFIG: edit for your firm ----------------
 YOUR_DOMAIN = os.environ.get("YOUR_DOMAIN", "yourfirm.com").lower()  # your firm's email domain
 PITCH_FOLDER_NAMES = {"pitches", "dealflow", "deal flow", "due diligence"}  # lowercase folder names
-# Names/emails of your colleagues — if one is on the call (besides you), it's partner-led → drop.
+# Names/emails of your colleagues: if one is on the call (besides you), it's partner-led → drop.
 COLLEAGUES = set()  # e.g. {"partner@yourfirm.com", "colleague@yourfirm.com"}
 INTERNAL_TITLE = re.compile(r"\b(team (meeting|sync|video)|investment team|all ?hands|standup|stand-up|"
                             r"1:1|weekly|offsite|watch party|commute|busy \(via|sync\b)\b", re.I)
-PERSONAL_TITLE = re.compile(r"\b(birthday|doctor|surgery|school|kindergarten|admission|estate|family|"
-                            r"dentist|vacation|dinner with|lunch with)\b", re.I)
+PERSONAL_TITLE = re.compile(r"\b(birthday|doctor|dentist|family|"
+                            r"vacation|dinner with|lunch with)\b", re.I)
 MIN_Q_WORDS = 4
 GREETING = re.compile(r"^(hey|hi|hello|how are you|how's it going|how you doing|can you hear|are you in)\b", re.I)
 # ------------------------------------------------------------

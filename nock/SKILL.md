@@ -15,18 +15,18 @@ description: >-
 > Nock your pitch before you take the shot.
 
 Pressure-tests a deck against how one seed to Series A VC (Nikunj Kothari) pushes on a pitch and reads a
-founder. Distilled from 53 of his real pitch and diligence meetings plus his essays and posts. It tells a
+founder. Built from how he questions founders, plus his essays and posts. It tells a
 founder the questions he'd ask and, more importantly, what he'd find missing.
 
 ## The reference files (read all three before analyzing, `principles.md` first)
 
-- `lens/principles.md`: **how he reads a founder, in his own voice. This is the soul.** The Pull (is this
+- `lens/principles.md`: **how he reads a founder, in his own voice.** The Pull (is this
   a haunting, or FOMO?), earned secrets (the two-of-three bar, the four-follow-up test, "LOVE the
   customer"), revealed preferences (what they *did*, not what they say: "what were they using before?"),
   latitude and agency (vision *and* the next step), the bar moved (10x is the floor; icebergs, not the
   commodity playbook), org structure as the opening (why incumbents can't follow), and the dinner test.
-- `lens/question-bank.md`: 12 themes of the questions he asks, each with canonical questions, real
-  (anonymized) phrasings, and the principle beneath it.
+- `lens/question-bank.md`: 12 themes of the questions he asks, each with canonical questions, his own
+  phrasings, and the principle beneath it.
 - `lens/raise-playbook.md`: **how the market reads the raise**, mostly in his own words from his essays
   and posts. The story (end state on slide one, three beliefs, no one-thing pitch), the ask and the price,
   numbers and signals, a worked teardown, who to pitch and who to take, running the process, and a deck
@@ -35,8 +35,7 @@ founder the questions he'd ask and, more importantly, what he'd find missing.
 
 ## How the lens transfers
 
-The lens comes from **open-ended conversations**, not deck walk-throughs. In real meetings he doesn't sit
-through slides; he'd rather have a conversation, and his questions are live reactions. So the files hold
+He doesn't sit through slides; he'd rather have a conversation, and his questions are live reactions. So the files hold
 his question patterns and his bar, not a deck-review script.
 
 This skill takes those patterns, applies them to the deck a founder sends cold, and produces the questions

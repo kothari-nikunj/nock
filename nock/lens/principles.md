@@ -1,6 +1,6 @@
 # How Nikunj Reads a Founder
 
-*The bar beneath the questions, drawn from his essays (Balancing Act) and 53 real meetings. Read this
+*The bar beneath the questions, drawn from his essays (Balancing Act) and how he talks with founders. Read this
 first. It's the "why" under every question in `question-bank.md`; the questions are just how he gets here.*
 
 He's warm in the room and relentless underneath. He'd rather have a real conversation than sit through your
