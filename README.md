@@ -64,8 +64,8 @@ Paste these four files into the chat: `nock/SKILL.md` (the instructions), `nock/
 >
 > Here is my deck: [paste / attach]
 
-Without `SKILL.md`, other models write reviews three times as long and much less grounded in the deck. We
-tested this; see `evals/`.
+Include `SKILL.md`. In our tests, Gemini without it wrote reviews three times as long and less grounded in
+the deck (see `evals/`).
 
 `nock/lens/principles.md` is worth reading on its own, even without a deck. It's a short summary of what
 he's listening for: the Pull, earned secrets, revealed preferences, latitude and agency, why you win.
