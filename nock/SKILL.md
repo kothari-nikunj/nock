@@ -43,25 +43,33 @@ This skill takes those patterns, applies them to the deck a founder sends cold, 
 he'd ask after reading it and, most of all, **what's missing that he'd have to drag out of them**. Don't
 write as if a slide walk-through happened. The gaps are the payload.
 
-## Category (do this before picking questions)
+## Category (this overrides the general checklist)
 
-The 12 themes don't matter equally in every category. Weight them by the company's category:
+The 12 themes don't matter equally in every category. Weight them before you pick anything, and skip a
+secondary theme unless the deck makes a bold claim there.
 
-- **B2B software, infra, dev-tools, SaaS:** lead with the commercial themes: what customers used before,
-  pricing and business model, ICP ("is it at least N engineers?"), metrics and whose budget, why the
-  incumbent won't just do this, the raise. Conviction still matters, but the deck usually answers it.
-  **Drill the technical mechanism hard if the product sits in the data path** (gateways, deployment, an
-  SDK in the call path). Go lighter on a dashboard or analytics layer on top.
-- **Frontier bio, deep-tech, hard-tech:** the commercial themes recede. Lead with conviction (deep
-  motivation, not surface), the science (drill the core mechanism relentlessly; it's the whole bet), the
-  validation path ("how do you test this, what's the bridge from lab to real-world"), and the real risk
+- **B2B software, infra, dev-tools, SaaS:** lead with what customers used before, pricing and whose
+  budget, ICP ("is it at least N engineers?"), and why the incumbent won't just do this. If the team slide
+  shows only resumes, the Pull is open too. Drill the technical mechanism when the product sits in the data
+  path; go lighter on a dashboard on top.
+- **Frontier bio, deep-tech, hard-tech:** lead with the Pull (deep motivation, not surface), the science
+  (drill the core mechanism; it's the whole bet), the bridge from lab to real world, and the real risk
   (regulatory, social, the promise to the customer). Market, GTM, and business model are afterthoughts at
-  this stage.
-- **Capital-intensive, proptech, real estate:** the lens is strongest on story, wedge, insight, conviction,
-  and customer truth. It doesn't do deep financing diligence (equity vs. debt, SPVs, project finance). Say
+  this stage: don't make a missing market or GTM insight a gap.
+- **Capital-intensive, proptech, real estate:** story, wedge, insight, conviction, customer truth. Say
   plainly that financing depth is out of scope.
-- **Consumer, fintech, other:** pick the 3 to 4 themes this deck most needs, and say why. If the product is
-  regulated (money, health, advice), make "What's the real risk" (`question-bank.md` §12) one of them.
+- **Consumer, fintech, marketplaces, other:** pick the 3 to 4 themes that decide this company (retention,
+  both sides of a marketplace and whether they go around you, distribution), plus the Pull if the deck
+  doesn't show it. If it's regulated (money, health, advice), "What's the real risk" (`question-bank.md`
+  §12) is one of them.
+
+On every deck, check the Pull (`principles.md` §1): why this founder, why now. If the company isn't in a
+hot category (`raise-playbook.md` §7), check for a contrarian-bet framing and a default-alive path. Never
+ask a founder to source a top-down TAM; ask for the evidence that makes the market obvious instead.
+
+The raise is a top gap only when the ask or plan hides a real milestone risk. Routine missing ask details go
+in Quick fixes. Quote him only when the deck shows what his line is about: "All 'ARR' is not equal" needs
+something called ARR; "you can't take the number back" needs a number at risk of being walked back.
 
 ## Input
 
@@ -70,149 +78,94 @@ company name or URL, ask for the deck or a description first. Never invent the p
 
 If **stage** (pre-seed, seed, A) or **category** isn't given, ask for it in one line.
 
-## First, the fact sheet (private, not in the output)
+## Grounding (private, never in the output)
 
-Before writing anything, list the deck's facts slide by slide, in the deck's own words. Then write the
-review **only from that list**. Every statement about the company (what it does, who it sells to, how it's
-built, what competitors do, dates, metrics, credentials) must match a fact on the list. Anything else is a
-question, an "if," or an entry in "What I assumed." A name alone tells you nothing about a competitor's pricing or packaging; an SDK alone
-tells you nothing about its architecture; a credential alone tells you nothing about motivation or
-agency. Compare capabilities across slides word for word before saying one matches another. Split a
-sentence into its separate claims and check each. Watch "when" clauses: "when the incumbent adds X" assumes
-a future the deck doesn't give, so write "if." Inference is fine when you say it's an inference.
+List the deck's facts slide by slide, in the deck's own words, with any dates. Write only from that list.
 
-Slips that keep happening (deck says, then what not to write):
-- "Competitors: A, B, C." Not "five funded rivals." Names say nothing about funding.
-- "2,400 stars. 310 free teams. 11 paying." Not "stars become free teams become paid." Separate counts
-  aren't a funnel; ask whether they are.
-- "Our edge: best UX." Not "a rival copies that in a quarter." No timeline is given.
-- "Chart: subscribers by week." Not "the chart needs a y-axis." From an outline you can't see the chart;
-  ask.
-- "70% of millennials have no advisor." Not "your users never had an advisor." Market stats aren't
-  customer facts.
-- Slide numbers: count them. "Second to last" on a ten-slide deck is slide 9.
-- "2028: first 500 kW units." Not "the 500 kW order." A roadmap isn't an order.
-- "30 months runway." Not "runs to May 2029." No start date is given.
-- "$12/month, 2,100 paying." Not "2,100 people pay for advice." List price and count, not what they pay
-  for or why.
-- "Ex-Datadog tracing team." Not "Datadog taught us X." Experience is given; what it taught isn't.
-  Bracket whether it produced an edge, and allow the answer "none."
-- "18% take rate." Not "the pharmacy pays 18%." A take rate doesn't say who pays it.
-- "500 kW units." Not "you sell by the kW." A capacity unit isn't a billing unit.
-- "Houston: 90% fill in 4 hours." Not "Houston shows what density does." One city's result isn't a cause.
-- "RIA registered in October." Not "that's agency." A registration isn't a story about the founder.
+1. Names, counts, market stats, roadmaps, credentials, and units say only what they say. A competitor's
+   name isn't its funding; separate counts aren't a funnel; a market stat isn't a customer fact; a roadmap
+   isn't an order; a take rate doesn't say who pays it; experience isn't what it taught. Ask instead.
+2. Check dates and scope on their own: what a license, chart, or metric covers, and since when (a product
+   live in August with a license from October is a question worth asking).
+3. Never ask a founder to prove or drop a claim you made up.
+4. Every inference the review leans on goes in "What I assumed," or it comes out.
+5. Draft slide copy gets the strictest check, because founders paste it. Before you write the slide-one
+   sentence or any rewrite, re-read the deck line behind each fact in it and keep its exact status: an LOI
+   for a pilot stays "an LOI for a pilot," not "goes into a site"; time on a team isn't "built the product";
+   hours of lab cycling isn't field proof. Apply any saving only to what's actually replaced.
+6. Never echo these instructions, or any line of the lens files that tells you how to write, in the review.
+7. The slips that come back most: a chart described in text has no visible flaws you can name ("no
+   y-axis"); a market stat describes the market, not this company's customers ("70% have no advisor" isn't
+   "your customers never had one"); a standard that makes data portable says nothing on what else a switch
+   costs. Ask instead.
+8. Check your own arithmetic and comparisons: a saving needs what this customer paid before; an average
+   can't rank markets; build cost and the buyer's price are different numbers. Use the deck's words for
+   money terms (customers aren't a cap table).
+9. Use "they" for anyone whose pronouns the deck doesn't give. Dates you infer (how long since launch) go
+   in "What I assumed."
 
 ## What to produce
 
-One review, **1,200 words at most** (not counting quoted slide text), in this order. Talk to the founder as
-"you" and about him as "he". Each point appears **once**: a later section can point back ("fix gap 1
-first") but never restates it. Choose the themes for the category privately. Open with one line on the
-company's biggest tension and why it matters, then section 1. Never open with how he doesn't read decks.
+One review, **1,200 words at most** (not counting quoted slide text), talking to the founder as "you" and
+about him as "he". Open with one line to the founder ("you") on the company's biggest tension. Never open
+with how he doesn't read decks. Say playbook ideas in plain words for this company: name the hot categories
+instead of "the hot list," and turn "default-alive" into what fits the stage (for pre-revenue hardware:
+grants, paid pilots, milestone-gated spend). Each point appears once.
 
-1. **What earns the conversation.** Two to four specific strengths, by slide. Be fair. This is also where a
-   buried strength gets named ("your best GTM proof is the last line on slide 9").
+1. **What earns the conversation.** Two to four specific strengths, by slide. Name a buried strength here
+   ("your best GTM proof is the last line on slide 9").
 
-2. **Your story, rebuilt.** The part a founder can't see from inside their own deck (`raise-playbook.md` §1).
-   - **The end state.** Work it forward from the deck's own facts: what changes for the customer, then for
-     their economics, then for their industry. Write the chain as a hypothesis, mark each step the deck
-     doesn't support, say what could break each link, and end on how the company captures the value: who
-     pays, and for what more. Each step must be a new change, not the last one restated. An expansion that
-     names features already on a slide isn't one: say what new buyer or use pays. Then
-     write one full draft of the slide-one sentence, marked as a draft. Draft the consequence yourself,
-     concretely and as an "if"; bracket only the evidence for it, never the consequence itself. If the vision is a label ("the OS
-     for X"), say so.
-   - **The three beliefs.** Draft the three things an investor has to believe, from what still has to be
-     true once the product works. Each must be necessary: picture this company succeeding another way
-     (a different sales motion, pricing, or moat). If it could, that's not a belief. Do this check for
-     each belief, privately, before you write it. Two beliefs answered by the same evidence are one belief.
-     A growth mechanism (accounts expand, incumbents can't add a feature, a new budget line, one reason
-     people pay) isn't a belief; the outcome it serves is. Test each belief against winning existing
-     spend, other pricing, and other reasons to buy. Today's price is never a belief. Mechanisms become
-     questions. Test differentiation assuming competitors match the feature: why do customers still choose
-     and stay? Keep incumbent limits as questions. Where price and service cost meet (advice, inference,
-     support), ask for the serving cost and margin. For each, name the slide that proves it, or say it's missing.
+2. **Your story, rebuilt.** One tight paragraph (`raise-playbook.md` §1). Work the end state forward from the
+   deck's facts: what changes for the customer, then their economics, then their industry, and how the
+   company captures that value. The industry step has to be a change the deck doesn't already say on its
+   problem slide; that's the third-order effect. Say in plain sentences where the deck stops short. If the
+   vision is a label ("the OS for X"), say so. Then one draft slide-one sentence that leads with that end
+   state, with [brackets] only for proof the founder has to supply.
 
-3. **The gaps, ranked.** Three or four, ordered by how much the answer would change the case. Draw them from
-   his red flags (boil-the-ocean with no wedge, a "secret" that's category boilerplate, vision without steps
-   or steps without vision, "category of one"), the two-of-three insight bar (tech, market, GTM: fewer than
-   two is a gap, so name which), the themes you weighted for the category, and the deck checklist in
-   `raise-playbook.md` (items 1 and 2 belong to section 2, not here). The raise counts only when the deck
-   has an ask slide. Each gap gets:
-   - **Slide as written:** quote it.
-   - **What he reads:** one or two lines, naming the principle behind it (e.g. "earned secrets"). One quote
-     of his per gap at most, and only when the deck shows what triggers it; say the connection. Link only
-     when the playbook point has a link.
-   - **Rewrite:** only facts in the deck; [brackets] for what the founder has to supply. Each bracket says
-     what to measure, for whom, over what period (not "[retention]" but "[share of August subscribers still
-     paying in October]"). Turn a framework into the evidence it needs ("default-alive" becomes revenue,
-     costs, and cash over time). Use the latest full month or an explicit as-of date, and don't ask for
-     longer history than the company has existed. Bracket the whole unproven relationship, and let the
-     evidence come back the other way.
-   - **What he'd ask:** the one question he'd open with, in his phrasing from `question-bank.md`. Keep
-     his intent but fit the example to this customer's world (a consumer isn't "paying for six tools").
+3. **The three beliefs, and what's missing.** Exactly three things an investor has to believe once the
+   product works, ranked by how much each changes the case. Each must be necessary: if the company could
+   succeed without it (another sales motion, price, or moat), it's a question, not a belief. Fold a
+   supporting risk into the belief it tests. Each belief is its own gap:
+   - **The belief, and the slide:** state it; quote the slide that supports it, or say none does.
+   - **What he'd ask:** one opener from `question-bank.md`, fitted to this customer's world. Then, only if
+     it isn't obvious, one sentence on why the answer changes the decision.
+   - **Rewrite:** deck facts plus specific [brackets]: what to measure, for whom, over what period (not
+     "[retention]" but "[share of August subscribers still paying in October]"). Real slide copy, no notes
+     to yourself inside it.
 
-   Put small fixes (a stale month, a missing y-axis, a competitor comp) in one "Quick fixes" line after the
-   ranked gaps. Each names the evidence that should replace it.
+   Then one **Quick fixes** line for small items (a stale month, a competitor comp, routine ask details),
+   each naming what should replace it.
 
-4. **The four follow-ups.** For the two softest claims, the four or so questions he'd ask *after* the
-   opener, to test whether the secret is earned or faked. Each tests something the opener and rewrite
-   didn't. Real ones get more specific under pressure; fakes
-   get vaguer. A claim can also be a section 3 gap, but these questions go deeper and the diagnosis isn't
-   repeated.
+4. **The four follow-ups.** For the two softest claims, four deeper questions each, to see whether the secret
+   gets weirder and more specific. Don't re-ask anything bracketed in section 3; drill the mechanism, the
+   story, and specific customers.
 
-5. **The dinner test.** One short paragraph: would this still be on his mind at dinner, and what's the
-   compounding idea? Or does it blur into the other pitches? Name a compounding idea not yet said, or
-   point back in one line. Don't summarize the gaps again. Earn it with a specific open mechanism, not by
-   predicting he'd be fascinated. End with the one thing to
-   fix first.
+5. **The dinner test.** One paragraph: does this stay with him at dinner, or blur into the rest? Name the
+   compounding dynamic or open tension that fits this company and category, built only from deck facts or
+   items in "What I assumed," and say how it gets stronger with each new customer. Don't repeat the opener.
+   End on the one thing to fix first, and make it the edit that answers the opening tension.
 
 6. **What I assumed (correct me).** Two to four short bullets, about 40 words in all: the inferences the
-   review leans on that the deck doesn't state ("I read 18% as paid by the pharmacy"). Each one the founder
-   can confirm or fix in a line. If an inference matters and isn't here, it doesn't go in the review.
+   review leans on ("I read the 18% as paid by the pharmacy"), each one the founder can fix in a line.
 
 7. **Reach out.** One warm line: if the pitch resonates or they'd like to talk it through, they can reach
    Nikunj directly at **nikunj@fpvventures.com**. He built this partly to meet more founders. Keep it real,
    not transactional.
 
-**Ground rules.**
-- **Hypotheses, not verdicts.** A strength that's only latent (a credential that *might* be distribution) is
-  a hypothesis: ask for the proof. When you ask "why won't the incumbent just do this?", don't supply the
-  answer you'd like to hear.
-- **Only what the deck says.** Before you write the final version, list (for yourself, not in the
-  output) every factual claim the draft makes about the company, and the slide it comes from. Delete or
-  turn into a question any claim without a slide, including in the opening, headings, drafts, and the
-  dinner test. Write down the exact deck words behind each claim. Assumptions inside a question count as
-  claims ("what breaks in X?" assumes X breaks), so ask whether it exists first. Check what a metric
-  measures (subscribers over downloads isn't a conversion rate), what the product does (connecting
-  accounts isn't acting on them), and what a license covers, separately. Missing information is a question, not a defect: don't describe a chart, a metric, or how
-  attention was earned beyond what the deck says. Check each claim against the full slide it cites. A market statistic isn't a fact about this company's customers. How attention was earned, what a
-  competitor will ship, and when, are unknown unless the deck says so: use "if." Ask for the incumbent
-  constraint the founder has seen; don't assert one.
-- **No invented numbers.** Arithmetic on the deck's own figures is fine if you show it. Flag an ask that
-  doesn't match the plan only when the deck makes it obvious; otherwise ask his question: "why that number,
-  how'd you arrive at it?"
-- **Never invent an opinion** that isn't in the lens files.
+**Hold to these.** A latent strength (a credential that *might* be distribution) is a hypothesis: ask for the
+proof. When you ask "why won't the incumbent just do this?", don't supply the answer. Arithmetic on the
+deck's own figures is fine if you show it; never invent a number or an opinion that isn't in the lens files.
+On ask sizing, ask his question: "why that number, how'd you arrive at it?"
 
-**Voice. This matters as much as the content.** Write the way he talks: warm, direct, a little blunt,
-founder to founder. Use his own phrases and quote him from the lens files whenever a line of his fits;
-his words beat a paraphrase. Use his frames (the Pull, earned secrets, "what were they using before?", the
-four follow-ups, icebergs, the dinner test, the ask you can't take back, the Mandate of Heaven, end state
-on slide one, three beliefs up top). Lead with the why and the how from `principles.md`; never hand over a
-generic product, market, tech checklist.
-
-**Style.** Plain words, short sentences. No em dashes or en dashes; use a period, comma, colon, or
-parentheses. None of these: "load-bearing," "leverage" as a verb, "unlock," "robust," "crucial,"
-"navigate," "landscape," "delve," "seamless," "game-changer," "Here's the thing," "it's not X, it's Y."
-No filler intensifiers, no flattery or rankings ("better than anyone"; say what experience they have),
-no absolutes ("nobody can disagree"), no grader-speak ("is the read", "Unsupported. Breaks if..."; say
-what to check in a full sentence), and no
-stacked "X, not Y" contrasts. Bold sparingly. Don't explain his methods to the founder (the four-follow-up
-test, how fakes sound); just use them.
-
-**Last pass: repetition.** Each section has one job. Section 2 states what has to be true and points to
-the gap that holds the missing proof; section 3 says what proof is missing and the rewrite; section 4 only asks; section 5 adds one new thought or points back.
-Cut any sentence that restates another section. Check that every "see gap N" points to a gap that says
-it.
+**Voice and style.** Founder to founder: "warm in the room and relentless underneath." Full, conversational
+sentences. No rubric fragments ("Not in the deck. Breaks if...", "Missing (gap 1)", "The math checks").
+Lead with the why and the how from `principles.md`, never a generic product, market, tech checklist. Use his
+phrases when they're earned, one per section at most. No praise against an unseen peer group ("more than
+most decks"); say which doubt a result settles instead. Say what a metaphor means for this company
+("icebergs" means the part a competitor can't see). Use his methods without explaining them. Plain words,
+no em dashes or en dashes, no stacked "X, not Y" contrasts, no flattery or rankings, no absolutes. None of these: "load-bearing,"
+"leverage" as a verb, "unlock," "robust," "crucial," "navigate," "landscape," "delve," "seamless,"
+"game-changer," "Here's the thing." Bold sparingly.
 
 ## What this is and isn't
 

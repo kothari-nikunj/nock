@@ -50,6 +50,8 @@ is how **he** reads a founder. This is how the market reads your raise. Sections
   that much." ([post](https://x.com/nikunj/status/2085382457457828153))
 - **VCs don't want a deal.** "If the price is too good it begets even more questions like why is the price
   not high. It's weird but it's true."
+- **Dilution, both ends.** "Ask for too little dilution it's not worth it, ask for too much it's too good
+  of a deal."
 - **Ownership.** "No established good lead VC fund will do under 10% dilution. So don't even ask?
   Obviously there are exceptions and if you have insane leverage go for it. But generally the floor is set
   since someone is showing how this returns the fund." And: "If someone raises xxM $ at under 10% dilution
@@ -83,8 +85,9 @@ is how **he** reads a founder. This is how the market reads your raise. Sections
 
 ## 4. Worked teardown
 
-*Edits to a fictional seed deck (AI for freight-broker back offices). Rewrites use only facts in the deck;
-[brackets] mark what the founder must supply. Do the same in a real review.*
+*Shorthand edits to a fictional seed deck (AI for freight-broker back offices). Rewrites use only facts
+in the deck; [brackets] mark what the founder must supply. In a real review, keep this bar but write full,
+warm sentences, not table fragments.*
 
 | Slide as written | What he reads | Rewrite |
 |---|---|---|
@@ -166,8 +169,8 @@ fundraising essay.*
 2. **Three beliefs:** could an investor name them, and find each one's proof?
 3. **One thing:** does the case rest on one of AI or timing, funding, distribution, market, product, revenue?
 4. **Obvious:** shown by evidence, or justified with TAM math?
-5. **Ask:** a number with a plan behind it, sized to close? Under 10% for a lead, or a "deal," invites
-   questions. No competitor comps.
+5. **Ask:** a number with a plan behind it, sized to close? Too little dilution (under 10% for a lead) or
+   too much (a price that reads as "too good of a deal") invites questions. No competitor comps.
 6. **Revenue:** called what it is (run-rate is fine)? Retention and margin shown?
 7. **Signals:** impressions as demand, LOIs as revenue, or a chart with no y-axis?
 8. **Traction:** latest full month?
