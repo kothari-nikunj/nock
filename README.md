@@ -26,10 +26,10 @@ Point it at a deck and it returns one review, 1,200 words at most:
 
 1. **What earns the conversation.** Your real strengths, including the ones you buried.
 2. **Your story, rebuilt.** Your end state worked forward through its second and third order effects, and
-   the three things an investor has to believe, each matched to its proof or flagged as missing.
-3. **The gaps, ranked.** Three or four, each as your slide as written, what he reads, a rewrite using only
-   your facts, and the question he'd open with. Red flags (no wedge, "category of one," a secret that's
-   really boilerplate), the two-of-three insight bar, and, if you have an ask slide, the raise.
+   a draft of your slide-one sentence that leads with it.
+3. **The three beliefs, and what's missing.** The three things an investor has to believe once your product
+   works. For each: the slide that proves it (or that none does), the question he'd open with, and a
+   rewrite using only your facts.
 4. **The four follow-ups** he'd use on your two softest claims to tell an earned secret from a faked one.
 5. **The dinner test.** Would this still be on his mind after the meeting? And the one thing to fix first.
 6. **What it assumed.** The few inferences it made that your deck doesn't state, so you can correct them.
@@ -115,6 +115,9 @@ mkdir -p ~/.claude/skills && cp -r nock/build-your-nock ~/.claude/skills/
 
 Then say **"build my nock."** It walks you through it end to end. Your raw transcripts stay local; the
 shipped lens is anonymized.
+
+`evals/` has five fictional test decks, the rubric, and `evals/grade.sh`, which has two outside models
+(Gemini via `agy`, and Codex) grade a set of reviews blind. Use it to check any change to your own Nock.
 
 ---
 
